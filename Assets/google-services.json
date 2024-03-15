@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "193424130061",
+    "project_id": "capsule-371f3",
+    "storage_bucket": "capsule-371f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193424130061:android:ce1105df0dd4a79835d544",
+        "android_client_info": {
+          "package_name": "com.skygo.roguelite.capsule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193424130061-j02dk91rcftcvaq6ml1vpjtta6bsge6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6ixtNqD-ESg9iUdVWdDvy0oBxaJwoymM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193424130061-j02dk91rcftcvaq6ml1vpjtta6bsge6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

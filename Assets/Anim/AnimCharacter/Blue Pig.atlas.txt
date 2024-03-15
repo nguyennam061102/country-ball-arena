@@ -1,0 +1,41 @@
+
+Blue Pig.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NV/7/body
+  rotate: false
+  xy: 2, 16
+  size: 76, 101
+  orig: 76, 101
+  offset: 0, 0
+  index: -1
+NV/7/eyes
+  rotate: false
+  xy: 80, 43
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+NV/7/face
+  rotate: true
+  xy: 80, 54
+  size: 63, 35
+  orig: 63, 35
+  offset: 0, 0
+  index: -1
+NV/7/long_may
+  rotate: true
+  xy: 80, 27
+  size: 14, 4
+  orig: 14, 4
+  offset: 0, 0
+  index: -1
+NV/7/tai
+  rotate: true
+  xy: 2, 2
+  size: 12, 46
+  orig: 12, 46
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Block
+  - Bot
+  - Bullet
+  - FX
+  - SpinPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - 
+  - Bullet
+  - 
+  - BG
+  - FG
+  - 
+  - Block
+  - CoinUI
+  - Loading
+  - 
+  - 
+  - Weapon
+  - MenuBGEffectOnly
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 76738685
+    locked: 0
+  - name: l1
+    uniqueID: 1004216879
+    locked: 0
+  - name: l2
+    uniqueID: 361363961
+    locked: 0
+  - name: CoinUI
+    uniqueID: 1682986519
+    locked: 0
+  - name: Character
+    uniqueID: 108613307
+    locked: 0

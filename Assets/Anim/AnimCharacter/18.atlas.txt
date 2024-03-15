@@ -1,0 +1,62 @@
+
+18.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NV/18/body
+  rotate: false
+  xy: 2, 12
+  size: 76, 112
+  orig: 76, 112
+  offset: 0, 0
+  index: -1
+NV/18/mat_1
+  rotate: false
+  xy: 80, 22
+  size: 63, 27
+  orig: 63, 27
+  offset: 0, 0
+  index: -1
+NV/18/mat_2
+  rotate: true
+  xy: 58, 2
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+NV/18/vuong_mien
+  rotate: true
+  xy: 114, 71
+  size: 53, 26
+  orig: 53, 26
+  offset: 0, 0
+  index: -1
+NV/9/mat
+  rotate: false
+  xy: 72, 2
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+NV/Desktop/mat_2
+  rotate: true
+  xy: 80, 51
+  size: 73, 32
+  orig: 73, 32
+  offset: 0, 0
+  index: -1
+NV/mac_dinh/mieng
+  rotate: false
+  xy: 2, 2
+  size: 26, 8
+  orig: 26, 8
+  offset: 0, 0
+  index: -1
+NV/mat-mieng
+  rotate: false
+  xy: 30, 5
+  size: 26, 5
+  orig: 26, 5
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+Dino boi.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NV/11/body
+  rotate: false
+  xy: 2, 14
+  size: 76, 112
+  orig: 76, 112
+  offset: 0, 0
+  index: -1
+NV/11/mao
+  rotate: false
+  xy: 80, 37
+  size: 44, 89
+  orig: 44, 89
+  offset: 0, 0
+  index: -1
+NV/11/mat
+  rotate: false
+  xy: 80, 19
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+NV/11/mieng_1
+  rotate: true
+  xy: 205, 50
+  size: 76, 47
+  orig: 76, 47
+  offset: 0, 0
+  index: -1
+NV/11/mieng_duoi
+  rotate: true
+  xy: 126, 2
+  size: 75, 47
+  orig: 75, 47
+  offset: 0, 0
+  index: -1
+NV/11/mieng_tren
+  rotate: false
+  xy: 126, 79
+  size: 77, 47
+  orig: 77, 47
+  offset: 0, 0
+  index: -1
+NV/Desktop/mat_1
+  rotate: false
+  xy: 175, 5
+  size: 50, 43
+  orig: 50, 43
+  offset: 0, 0
+  index: -1
+NV/mac_dinh/mieng
+  rotate: false
+  xy: 2, 4
+  size: 26, 8
+  orig: 26, 8
+  offset: 0, 0
+  index: -1

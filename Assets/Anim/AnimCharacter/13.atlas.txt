@@ -1,0 +1,55 @@
+
+13.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NV/13/body
+  rotate: false
+  xy: 2, 3
+  size: 76, 112
+  orig: 76, 112
+  offset: 0, 0
+  index: -1
+NV/13/mat_1
+  rotate: false
+  xy: 80, 58
+  size: 55, 57
+  orig: 55, 57
+  offset: 0, 0
+  index: -1
+NV/13/mat_2
+  rotate: false
+  xy: 137, 90
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+NV/13/mieng
+  rotate: true
+  xy: 125, 21
+  size: 35, 17
+  orig: 35, 17
+  offset: 0, 0
+  index: -1
+NV/13/mieng copy 2
+  rotate: false
+  xy: 125, 2
+  size: 35, 17
+  orig: 35, 17
+  offset: 0, 0
+  index: -1
+NV/13/tai
+  rotate: false
+  xy: 137, 60
+  size: 18, 28
+  orig: 18, 28
+  offset: 0, 0
+  index: -1
+NV/Desktop/mat_1
+  rotate: true
+  xy: 80, 6
+  size: 50, 43
+  orig: 50, 43
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+(_-_).png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NV/19/body
+  rotate: true
+  xy: 2, 28
+  size: 98, 126
+  orig: 98, 126
+  offset: 0, 0
+  index: -1
+NV/19/mat_1
+  rotate: true
+  xy: 243, 5
+  size: 46, 27
+  orig: 46, 27
+  offset: 0, 0
+  index: -1
+NV/19/mat_2
+  rotate: false
+  xy: 2, 2
+  size: 16, 24
+  orig: 16, 24
+  offset: 0, 0
+  index: -1
+NV/19/rang
+  rotate: false
+  xy: 20, 18
+  size: 41, 8
+  orig: 41, 8
+  offset: 0, 0
+  index: -1
+NV/9/mat
+  rotate: false
+  xy: 63, 18
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+NV/Desktop/mat_2
+  rotate: true
+  xy: 243, 53
+  size: 73, 32
+  orig: 73, 32
+  offset: 0, 0
+  index: -1
+NV/Desktop/mieng_1
+  rotate: true
+  xy: 130, 15
+  size: 111, 55
+  orig: 111, 55
+  offset: 0, 0
+  index: -1
+NV/Desktop/mieng_7
+  rotate: true
+  xy: 187, 14
+  size: 112, 54
+  orig: 112, 54
+  offset: 0, 0
+  index: -1
+NV/mac_dinh/mieng
+  rotate: false
+  xy: 20, 8
+  size: 26, 8
+  orig: 26, 8
+  offset: 0, 0
+  index: -1
+NV/mat-mieng
+  rotate: false
+  xy: 48, 11
+  size: 26, 5
+  orig: 26, 5
+  offset: 0, 0
+  index: -1

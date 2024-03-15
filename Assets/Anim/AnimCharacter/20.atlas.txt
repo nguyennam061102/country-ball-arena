@@ -1,0 +1,48 @@
+
+20.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NV/20/body
+  rotate: false
+  xy: 2, 2
+  size: 76, 121
+  orig: 76, 121
+  offset: 0, 0
+  index: -1
+NV/20/mat_1
+  rotate: false
+  xy: 80, 22
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+NV/20/mat_2
+  rotate: false
+  xy: 80, 4
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+NV/9/mat
+  rotate: false
+  xy: 102, 40
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+NV/Desktop/mat_2
+  rotate: true
+  xy: 80, 50
+  size: 73, 32
+  orig: 73, 32
+  offset: 0, 0
+  index: -1
+NV/mat-mieng
+  rotate: true
+  xy: 114, 97
+  size: 26, 5
+  orig: 26, 5
+  offset: 0, 0
+  index: -1

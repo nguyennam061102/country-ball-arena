@@ -1,0 +1,27 @@
+
+SuperPill.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NV/2/body
+  rotate: false
+  xy: 2, 2
+  size: 76, 112
+  orig: 76, 112
+  offset: 0, 0
+  index: -1
+NV/2/mat
+  rotate: true
+  xy: 80, 54
+  size: 60, 35
+  orig: 60, 35
+  offset: 0, 0
+  index: -1
+NV/2/mat_1
+  rotate: false
+  xy: 80, 37
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,363 @@
+
+shop.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NV_shop/NV_shop/0/body
+  rotate: false
+  xy: 317, 1092
+  size: 304, 448
+  orig: 304, 448
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/0/mat
+  rotate: false
+  xy: 859, 1069
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/0/mieng (2)
+  rotate: false
+  xy: 317, 1058
+  size: 104, 32
+  orig: 104, 32
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/0/rang
+  rotate: false
+  xy: 801, 1059
+  size: 40, 20
+  orig: 40, 20
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/1/body
+  rotate: false
+  xy: 396, 1598
+  size: 304, 448
+  orig: 304, 448
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/1/face
+  rotate: false
+  xy: 499, 2
+  size: 271, 149
+  orig: 271, 149
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/11/body
+  rotate: false
+  xy: 623, 1099
+  size: 304, 447
+  orig: 304, 447
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/11/mao
+  rotate: false
+  xy: 920, 741
+  size: 175, 356
+  orig: 175, 356
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/11/mieng (1)
+  rotate: true
+  xy: 921, 361
+  size: 308, 189
+  orig: 308, 189
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/15/body
+  rotate: false
+  xy: 2, 1055
+  size: 313, 485
+  orig: 313, 485
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/15/kinh
+  rotate: false
+  xy: 921, 299
+  size: 200, 60
+  orig: 200, 60
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/15/mieng
+  rotate: false
+  xy: 625, 1061
+  size: 60, 36
+  orig: 60, 36
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/17/body
+  rotate: false
+  xy: 702, 1598
+  size: 304, 448
+  orig: 304, 448
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/17/mat_2
+  rotate: false
+  xy: 889, 1069
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/17/mieng_bt
+  rotate: true
+  xy: 1002, 202
+  size: 95, 183
+  orig: 95, 183
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/19/body
+  rotate: false
+  xy: 2, 1542
+  size: 392, 504
+  orig: 392, 504
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/19/mat_1
+  rotate: false
+  xy: 614, 171
+  size: 184, 110
+  orig: 184, 110
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/19/mat_2
+  rotate: true
+  xy: 1173, 449
+  size: 63, 48
+  orig: 64, 96
+  offset: 1, 0
+  index: -1
+NV_shop/NV_shop/2/body
+  rotate: false
+  xy: 2, 603
+  size: 304, 450
+  orig: 304, 450
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/2/mat
+  rotate: false
+  xy: 256, 8
+  size: 241, 141
+  orig: 241, 141
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/2/mat_1
+  rotate: false
+  xy: 1123, 306
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/2/mat_2
+  rotate: false
+  xy: 1173, 514
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/3/body
+  rotate: false
+  xy: 308, 604
+  size: 304, 449
+  orig: 304, 449
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/3/mat_2
+  rotate: false
+  xy: 687, 1058
+  size: 40, 39
+  orig: 40, 39
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/3/mieng
+  rotate: false
+  xy: 396, 1543
+  size: 193, 53
+  orig: 193, 53
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/3/toc
+  rotate: false
+  xy: 1178, 395
+  size: 48, 52
+  orig: 48, 52
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/4/body
+  rotate: false
+  xy: 2, 151
+  size: 304, 450
+  orig: 304, 450
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/4/kinh
+  rotate: false
+  xy: 920, 671
+  size: 280, 68
+  orig: 280, 68
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/4/mieng
+  rotate: false
+  xy: 525, 1058
+  size: 48, 32
+  orig: 48, 32
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/4/mu
+  rotate: false
+  xy: 772, 11
+  size: 349, 158
+  orig: 349, 158
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/5/body
+  rotate: false
+  xy: 614, 283
+  size: 305, 368
+  orig: 305, 368
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/5/mat_1
+  rotate: false
+  xy: 1112, 577
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/5/mat_2
+  rotate: true
+  xy: 767, 1061
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/5/mat_3
+  rotate: true
+  xy: 423, 1066
+  size: 24, 100
+  orig: 24, 100
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/5/mieng
+  rotate: true
+  xy: 1123, 64
+  size: 136, 72
+  orig: 136, 72
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/5/rang
+  rotate: false
+  xy: 918, 1556
+  size: 92, 40
+  orig: 92, 40
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/6/body
+  rotate: false
+  xy: 308, 153
+  size: 304, 449
+  orig: 304, 449
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/6/mat_1
+  rotate: false
+  xy: 1112, 369
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/6/mat_2
+  rotate: false
+  xy: 1223, 472
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/6/mieng
+  rotate: false
+  xy: 575, 1058
+  size: 48, 32
+  orig: 48, 32
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/7/body
+  rotate: false
+  xy: 614, 653
+  size: 304, 403
+  orig: 304, 403
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/7/eyes
+  rotate: false
+  xy: 729, 1061
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/7/face
+  rotate: false
+  xy: 2, 9
+  size: 252, 140
+  orig: 252, 140
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/7/long_may
+  rotate: false
+  xy: 801, 1081
+  size: 56, 16
+  orig: 56, 16
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/7/tai
+  rotate: true
+  xy: 591, 1548
+  size: 48, 184
+  orig: 48, 184
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/9/body
+  rotate: false
+  xy: 1008, 1602
+  size: 304, 444
+  orig: 304, 444
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/9/mattt
+  rotate: false
+  xy: 800, 183
+  size: 200, 98
+  orig: 200, 98
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/chan_tay/chan_phai
+  rotate: true
+  xy: 1123, 3
+  size: 59, 158
+  orig: 59, 158
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/chan_tay/chan_trai
+  rotate: false
+  xy: 1112, 435
+  size: 59, 140
+  orig: 59, 140
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/chan_tay/tay_1
+  rotate: true
+  xy: 777, 1555
+  size: 41, 139
+  orig: 41, 139
+  offset: 0, 0
+  index: -1
+NV_shop/NV_shop/chan_tay/tay_2
+  rotate: true
+  xy: 777, 1555
+  size: 41, 139
+  orig: 41, 139
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+Hiphop Master.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NV/4/anh_sang
+  rotate: false
+  xy: 122, 40
+  size: 18, 29
+  orig: 18, 29
+  offset: 0, 0
+  index: -1
+NV/4/body
+  rotate: false
+  xy: 2, 12
+  size: 76, 112
+  orig: 76, 112
+  offset: 0, 0
+  index: -1
+NV/4/kinh
+  rotate: false
+  xy: 80, 18
+  size: 70, 17
+  orig: 70, 17
+  offset: 0, 0
+  index: -1
+NV/4/mieng
+  rotate: false
+  xy: 2, 2
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+NV/4/mu
+  rotate: true
+  xy: 80, 37
+  size: 87, 40
+  orig: 87, 40
+  offset: 0, 0
+  index: -1
+NV/Desktop/mieng_2
+  rotate: false
+  xy: 122, 71
+  size: 39, 53
+  orig: 39, 53
+  offset: 0, 0
+  index: -1
