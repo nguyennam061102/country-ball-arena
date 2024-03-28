@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayerSkin7
   m_EditorClassIdentifier: 
   skinId: 7
-  skinSprite: {fileID: 21300000, guid: d8e9d12ce2dd821449ea95a15897069f, type: 3}
+  skinSprite: {fileID: 21300000, guid: 8b30b3ba910221d45b1f19cc00e92004, type: 3}
   defaultSkin: 0
-  useColor: 0
-  skinColor: {r: 0.07058824, g: 0.37647063, b: 1, a: 1}
+  useColor: 1
+  skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: 0f963486000fae2439ea25fce3044c0a, type: 2}
-  skinName: Blue Pig
+  skinName: Brazil
   health: 200
   speed: 80

@@ -25,8 +25,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3872223410633345870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -330, y: 0, z: 0}
+  m_LocalPosition: {x: -299.7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3872223410665156150}
   m_RootOrder: 0
@@ -117,6 +118,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3872223410633345873}
   - {fileID: 3872223410866411627}
@@ -178,7 +180,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: b280fe30ab19b364da5fb63329405879, type: 3}
+  mSprite: {fileID: 21300000, guid: c81b3ded787abd74d974dbb167e6e2ea, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
@@ -202,6 +204,8 @@ MonoBehaviour:
   buttonText: {fileID: 3872223411414884944}
   sprClaim: {fileID: 5802687648822333311}
   claimButton: {fileID: 3872223410851291452}
+  on: {fileID: 21300000, guid: d6314d73d3dde3546b31f43dd9c47679, type: 3}
+  off: {fileID: 21300000, guid: bf1809908221c0e44a7a9d69b8aa906d, type: 3}
 --- !u!1 &3872223410673517522
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,8 +231,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3872223410673517522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -50, y: -45, z: 0}
+  m_LocalPosition: {x: -45, y: -35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3872223410665156150}
   m_RootOrder: 3
@@ -262,7 +267,7 @@ MonoBehaviour:
     relative: 1
     absolute: 0
   updateAnchors: 1
-  mColor: {r: 0.82745105, g: 0.49803925, b: 0.1137255, a: 1}
+  mColor: {r: 0.97647065, g: 0.75294125, b: 0.06666667, a: 1}
   mPivot: 3
   mWidth: 180
   mHeight: 50
@@ -273,7 +278,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.6
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 902736ba372512a4399839188780800d, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: df4be1a0c2bd81c45ac59d86daa7e640, type: 3}
   mFont: {fileID: 0}
   mText: +150
   mFontSize: 50
@@ -333,6 +338,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 270, y: -35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3872223411414884945}
   m_Father: {fileID: 3872223410665156150}
@@ -419,9 +425,9 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: 446dc50e5c943e54a8211c76da1e7f6f, type: 3}
+  mSprite: {fileID: 21300000, guid: bf1809908221c0e44a7a9d69b8aa906d, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
-  mBorder: {x: 20, y: 20, z: 20, w: 20}
+  mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
   mPixelSize: 1
   nextSprite: {fileID: 0}
@@ -466,8 +472,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3872223410866411624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -200, y: 45, z: 0}
+  m_LocalPosition: {x: -180, y: 53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3872223410665156150}
   m_RootOrder: 1
@@ -501,23 +508,23 @@ MonoBehaviour:
     relative: 1
     absolute: 0
   updateAnchors: 1
-  mColor: {r: 0.30588236, g: 0.2627451, b: 0.5254902, a: 1}
+  mColor: {r: 0.34117648, g: 0.28627452, b: 0.23137257, a: 1}
   mPivot: 3
-  mWidth: 600
-  mHeight: 50
+  mWidth: 605
+  mHeight: 54
   mDepth: 4
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 12
+  aspectRatio: 11.203704
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 902736ba372512a4399839188780800d, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: 273681166abaa424e815cc255d42d9e4, type: 3}
   mFont: {fileID: 0}
   mText: Skygo Game 2021
   mFontSize: 30
   mFontStyle: 0
-  mAlignment: 0
+  mAlignment: 2
   mEncoding: 1
   mMaxLineCount: 0
   mEffectStyle: 0
@@ -569,6 +576,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3872223410851291451}
   m_RootOrder: 0
@@ -613,7 +621,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 4.72
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 902736ba372512a4399839188780800d, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: 9805f526ab7e1b84f83c49ec65f92fd9, type: 3}
   mFont: {fileID: 0}
   mText: Claim
   mFontSize: 50
@@ -668,8 +676,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3872223412187483852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -100, y: -45, z: 0}
+  m_LocalPosition: {x: -99, y: -35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3872223410665156150}
   m_RootOrder: 2
@@ -705,14 +714,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 96
-  mHeight: 94
+  mWidth: 70
+  mHeight: 70
   mDepth: 3
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.0212766
+  aspectRatio: 1
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -726,7 +735,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: 083dcf62f8206794ca68ca3487824926, type: 3}
+  mSprite: {fileID: 21300000, guid: 10888108e434f11469d1773f335db6fe, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0

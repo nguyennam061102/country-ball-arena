@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayerSkin2
   m_EditorClassIdentifier: 
   skinId: 2
-  skinSprite: {fileID: 21300000, guid: 6793c3f87fcb9f24a91019d385d3ac5b, type: 3}
+  skinSprite: {fileID: 21300000, guid: 997a2a3b36ffc6f489d0a064d442c6cc, type: 3}
   defaultSkin: 0
   useColor: 1
-  skinColor: {r: 1, g: 0.40000004, b: 0, a: 1}
+  skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: c4f1cdebc9b40d4409c9a2dfcc7ff0f3, type: 2}
-  skinName: Super Pill
+  skinName: America
   health: 120
   speed: 100

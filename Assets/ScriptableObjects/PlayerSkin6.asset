@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayerSkin6
   m_EditorClassIdentifier: 
   skinId: 6
-  skinSprite: {fileID: 21300000, guid: 702a2aa65e9aa344a8f3599d0349ba30, type: 3}
+  skinSprite: {fileID: 21300000, guid: 0c771dbae166dbb41af3124e9e865c4c, type: 3}
   defaultSkin: 0
-  useColor: 0
-  skinColor: {r: 1, g: 0, b: 0.23529413, a: 1}
+  useColor: 1
+  skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: 5d2e052c975560d4f816e82fb4881026, type: 2}
-  skinName: Mr.Melon
+  skinName: England
   health: 170
   speed: 110

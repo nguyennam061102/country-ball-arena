@@ -32608,6 +32608,7 @@ MonoBehaviour:
   statsAfterDealingDamage: {fileID: 0}
   dealDamageToPlayer: {fileID: 0}
   targetToShoot: {fileID: 8339798678738884877}
+  nameAI: 
   playerID: 0
   outOfBoundCount: 0
 --- !u!114 &8160610322725715085

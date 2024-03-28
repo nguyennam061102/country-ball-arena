@@ -8,6 +8,7 @@ public class DailyMissionItem : MonoBehaviour
     [SerializeField] private UILabel missionName, missionReward, buttonText;
     [SerializeField] private UI2DSprite sprClaim;
     [SerializeField] private BoxCollider claimButton;
+    [SerializeField] Sprite on, off;
     private DailyMissionInfo info;
 
     public void SetItem(DailyMissionInfo info)
@@ -25,7 +26,7 @@ public class DailyMissionItem : MonoBehaviour
         }
 
         claimButton.enabled = info.MissionDone;
-        sprClaim.color = info.MissionDone ? new Color32(50, 184, 81, 255) : new Color32(128, 132, 134, 255);
+        sprClaim.sprite2D = info.MissionDone ? on : off;
         buttonText.text = info.MissionDone ? "Claim" : $"{info.MissionProgress}/{info.TargetProgress}";
     }
 

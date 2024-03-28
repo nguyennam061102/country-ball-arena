@@ -6,6 +6,10 @@ using UnityEngine;
 public class PanelRename : MonoBehaviour
 {
     private UiController UI => UiController.Instance;
+
+    [SerializeField] private UIGrid grid;
+    //[SerializeField] private InventoryItem inventoryItemPrefab;
+
     public UIInput Input;
     public GameObject ButtonBack;
     // Start is called before the first frame update
@@ -20,6 +24,15 @@ public class PanelRename : MonoBehaviour
         {
             ButtonBack.SetActive(true);
         }
+
+        //foreach (var info in GameFollowData.Instance.skinList)
+        //{
+        //    if (info.IsUnlocked)
+        //    {
+        //        var item = Instantiate(inventoryItemPrefab, inventoryGrid.transform);
+        //        item.transform.localScale = Vector3.one * 0.9f;
+        //    }
+        //}
     }
 
     [Button]

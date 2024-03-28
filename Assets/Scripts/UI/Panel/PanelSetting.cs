@@ -10,6 +10,7 @@ public class PanelSetting : MonoBehaviour
 
     [SerializeField] private UILabel soundText, musicText, controlText, graphicsText;
     [SerializeField] private UI2DSprite sprSound, sprMusic, sprGraphics;
+    [SerializeField] private Sprite on, off, high;
 
     private void OnEnable()
     {
@@ -69,9 +70,9 @@ public class PanelSetting : MonoBehaviour
 
     void SetButtonColor()
     {
-        sprSound.color = GameData.Sound ? new Color32(50, 184, 81, 255) : new Color32(128, 132, 134, 255);
-        sprMusic.color = GameData.Music ? new Color32(50, 184, 81, 255) : new Color32(128, 132, 134, 255);
-        sprGraphics.color = GameData.GraphicsLevel == 0 ? new Color32(50, 184, 81, 255) : new Color32(240, 154, 41, 255);
+        sprSound.sprite2D = GameData.Sound ? on : off;
+        sprMusic.sprite2D = GameData.Music ? on : off;
+        sprGraphics.sprite2D = GameData.GraphicsLevel == 0 ? on : high;
     }
 
     //GDPR

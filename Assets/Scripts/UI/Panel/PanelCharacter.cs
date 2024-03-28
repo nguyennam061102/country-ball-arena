@@ -5,6 +5,7 @@ using Spine;
 using Spine.Unity;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
 
 public class PanelCharacter : MonoBehaviour
@@ -177,8 +178,8 @@ public class PanelCharacter : MonoBehaviour
         }
         Invoke("RepositionGrid", 0.05f);
         SetButton(0);
-        inventoryGrid.GetComponent<TweenScale>().ResetToBeginning();
-        inventoryGrid.GetComponent<TweenScale>().PlayForward();
+        //inventoryGrid.GetComponent<TweenScale>().ResetToBeginning();
+        //inventoryGrid.GetComponent<TweenScale>().PlayForward();
     }
 
     public void OnOffHandButton()
@@ -198,8 +199,8 @@ public class PanelCharacter : MonoBehaviour
         }
         Invoke("RepositionGrid", 0.05f);
         SetButton(1);
-        inventoryGrid.GetComponent<TweenScale>().ResetToBeginning();
-        inventoryGrid.GetComponent<TweenScale>().PlayForward();
+        //inventoryGrid.GetComponent<TweenScale>().ResetToBeginning();
+        //inventoryGrid.GetComponent<TweenScale>().PlayForward();
     }
 
     public void OnSkinButton()
@@ -219,8 +220,8 @@ public class PanelCharacter : MonoBehaviour
         }
         Invoke("RepositionGrid", 0.05f);
         SetButton(2);
-        inventoryGrid.GetComponent<TweenScale>().ResetToBeginning();
-        inventoryGrid.GetComponent<TweenScale>().PlayForward();
+        //inventoryGrid.GetComponent<TweenScale>().ResetToBeginning();
+        //inventoryGrid.GetComponent<TweenScale>().PlayForward();
     }
 
     void SetButton(int id)
@@ -231,10 +232,17 @@ public class PanelCharacter : MonoBehaviour
             buttonSpr[i].MakePixelPerfect();
         }
     }
-
+    [SerializeField]
+    private UIScrollView UIScrollView;
     void RepositionGrid()
     {
+        UIScrollView.ResetPosition();
         inventoryGrid.Reposition();
+        inventoryGrid.GetComponent<TweenScale>().ResetToBeginning();
+        inventoryGrid.GetComponent<TweenScale>().PlayForward();
+        //grid.Reposition();
+        //grid.GetComponent<TweenScale>().ResetToBeginning();
+        //grid.GetComponent<TweenScale>().PlayForward();
     }
 
     private float TargetExp => (float)Math.Round(60 * Mathf.Pow(GameData.PlayerLevel + 1, 2.8f) - 60);

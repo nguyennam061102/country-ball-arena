@@ -26,7 +26,8 @@ Transform:
   m_GameObject: {fileID: 544684205360724825}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -87, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7453974847245009007}
   m_RootOrder: 1
@@ -62,14 +63,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 96
-  mHeight: 94
+  mWidth: 70
+  mHeight: 66
   mDepth: 2
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.0212766
+  aspectRatio: 1.060606
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -83,7 +84,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: 534f36b77d1c6f94a8b742f453ccdfed, type: 3}
+  mSprite: {fileID: 21300000, guid: 670ecb328ea304a42a721e9237053a94, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
@@ -118,6 +119,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 30, z: 0}
   m_LocalScale: {x: 40, y: 40, z: 40}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7453974846918170667}
   m_RootOrder: 5
@@ -141,10 +143,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials: []
@@ -168,6 +172,7 @@ MeshRenderer:
   m_SortingLayerID: 76738685
   m_SortingLayer: 1
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &3204484796729344947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +236,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7453974846918170667}
   m_RootOrder: 0
@@ -301,6 +307,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 200, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7453974846918170667}
   m_RootOrder: 1
@@ -345,7 +352,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 2.28
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 902736ba372512a4399839188780800d, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: 273681166abaa424e815cc255d42d9e4, type: 3}
   mFont: {fileID: 0}
   mText: Name
   mFontSize: 50
@@ -402,6 +409,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7453974846918170667}
   m_RootOrder: 2
@@ -491,6 +499,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 40, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7453974847245009007}
   m_RootOrder: 0
@@ -535,7 +544,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 2.4285715
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 902736ba372512a4399839188780800d, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: 9805f526ab7e1b84f83c49ec65f92fd9, type: 3}
   mFont: {fileID: 0}
   mText: Owned
   mFontSize: 50
@@ -592,6 +601,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -160, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7453974846918170667}
   m_RootOrder: 3
@@ -636,7 +646,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.28
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 902736ba372512a4399839188780800d, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: 273681166abaa424e815cc255d42d9e4, type: 3}
   mFont: {fileID: 0}
   mText: Item Info
   mFontSize: 40
@@ -697,6 +707,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6609873767907300225}
   - {fileID: 7453974845444309602}
@@ -785,8 +796,10 @@ MonoBehaviour:
   content: {fileID: 7453974845872719139}
   price: {fileID: 7453974845570012449}
   anim: {fileID: 3204484796729344947}
-  iconGold: {fileID: 21300000, guid: 083dcf62f8206794ca68ca3487824926, type: 3}
-  iconDiamond: {fileID: 21300000, guid: 7397d1adebe43404fa1bf22e79237dd5, type: 3}
+  iconGold: {fileID: 21300000, guid: 670ecb328ea304a42a721e9237053a94, type: 3}
+  iconDiamond: {fileID: 21300000, guid: 27eaf8ae4084bb547bafcc7ad19203df, type: 3}
+  unlock: {fileID: 21300000, guid: 658422558476cb147b0fa4f93d5f3672, type: 3}
+  locks: {fileID: 21300000, guid: 14b701421846a68469aa32d86c9d135f, type: 3}
 --- !u!114 &7641834459864692100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,7 +852,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: 49e147162239aae46be2ee535d4a7fde, type: 3}
+  mSprite: {fileID: 21300000, guid: 74620d1f80d7624458f10ae7c3436056, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
@@ -872,6 +885,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -260, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7453974845570012448}
   - {fileID: 2201150336546834670}
@@ -907,7 +921,7 @@ MonoBehaviour:
     relative: 1
     absolute: 0
   updateAnchors: 1
-  mColor: {r: 0.19607843, g: 0.72156864, b: 0.31764707, a: 1}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 264
   mHeight: 88
@@ -930,9 +944,9 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: 446dc50e5c943e54a8211c76da1e7f6f, type: 3}
+  mSprite: {fileID: 21300000, guid: 658422558476cb147b0fa4f93d5f3672, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
-  mBorder: {x: 20, y: 20, z: 20, w: 20}
+  mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
   mPixelSize: 1
   nextSprite: {fileID: 0}

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayerSkin12
   m_EditorClassIdentifier: 
   skinId: 12
-  skinSprite: {fileID: 21300000, guid: 90f74b23c1352c14f930e64ed51dc0fe, type: 3}
+  skinSprite: {fileID: 21300000, guid: 24d843ecaaeea5a4f9679bd13a644380, type: 3}
   defaultSkin: 0
-  useColor: 0
-  skinColor: {r: 1, g: 0, b: 0.3529412, a: 1}
+  useColor: 1
+  skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: 67ef10c05df9947438cb309e187b0358, type: 2}
-  skinName: (?-?)
+  skinName: Poland
   health: 230
   speed: 120

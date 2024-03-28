@@ -21,10 +21,12 @@ public class LegRenderer : MonoBehaviour
         line.endWidth = 0.12f;
 
         data.skinHandler.onSetSkinAction += SetColor;
+        line.enabled = false;
     }
 
     private void FixedUpdate()
     {
+        return;
         for (int i = 0; i < segmentCount; i++)
         {
             t = (float)i / ((float)segmentCount - 1f);

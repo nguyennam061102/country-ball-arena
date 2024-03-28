@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayerSkin10
   m_EditorClassIdentifier: 
   skinId: 10
-  skinSprite: {fileID: 21300000, guid: 6c163d53554dc6440a902bffbd8a3718, type: 3}
+  skinSprite: {fileID: 21300000, guid: 4350f12b7ce610e4186ef52b92a76ca8, type: 3}
   defaultSkin: 0
-  useColor: 0
-  skinColor: {r: 1, g: 0.85098046, b: 0.25490198, a: 1}
+  useColor: 1
+  skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: f5e8c8cbe4b7f36439c6f6d034bc97f4, type: 2}
-  skinName: Agent Banana
+  skinName: Mexican
   health: 150
   speed: 150

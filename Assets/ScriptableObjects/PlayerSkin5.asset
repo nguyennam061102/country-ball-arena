@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayerSkin5
   m_EditorClassIdentifier: 
   skinId: 5
-  skinSprite: {fileID: 21300000, guid: e7087b70d132961458aa3eca60a7cdc6, type: 3}
+  skinSprite: {fileID: 21300000, guid: 97e3226490b1fcc4098534194ddab1d6, type: 3}
   defaultSkin: 0
-  useColor: 0
-  skinColor: {r: 0, g: 0.5921569, b: 0.3803922, a: 1}
+  useColor: 1
+  skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: 2a4d32a8db99d5e4e9f9123674df0bb6, type: 2}
-  skinName: Two Eyes Alien
+  skinName: Canada
   health: 150
   speed: 110

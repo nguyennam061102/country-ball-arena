@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayerSkin8
   m_EditorClassIdentifier: 
   skinId: 8
-  skinSprite: {fileID: 21300000, guid: 03c963fc8a819ee42b3a722aa7971ed8, type: 3}
+  skinSprite: {fileID: 21300000, guid: 45bd172f105d47f4da97e446731d378b, type: 3}
   defaultSkin: 0
-  useColor: 0
-  skinColor: {r: 0, g: 0.8705883, b: 1, a: 1}
+  useColor: 1
+  skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: b2000f9aed91f6a44bf37f20795369aa, type: 2}
-  skinName: Thief
+  skinName: Korea
   health: 130
   speed: 150

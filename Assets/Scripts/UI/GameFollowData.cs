@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Sirenix.OdinInspector;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -25,47 +27,51 @@ public class GameFollowData : MonoBehaviour
     }
 
     public bool isPlaying = true;
-
+    //public List<CharacterSkin> chs;
 #if UNITY_EDITOR
-    [ContextMenu("EXECUTE ITEM ID")]
+    [Button]
     void ExecuteItemId()
     {
-        for (int i = 0; i < mainHandList.Length; i++)
-        {
-            mainHandList[i].itemId = i;
-            EditorUtility.SetDirty(mainHandList[i].itemIcon);
-        }
+        //for (int i = 0; i < mainHandList.Length; i++)
+        //{
+        //    mainHandList[i].itemId = i;
+        //    EditorUtility.SetDirty(mainHandList[i].itemIcon);
+        //}
 
-        for (int i = 0; i < offHandList.Length; i++)
-        {
-            offHandList[i].itemId = i;
-            EditorUtility.SetDirty(offHandList[i].itemIcon);
-        }
+        //for (int i = 0; i < offHandList.Length; i++)
+        //{
+        //    offHandList[i].itemId = i;
+        //    EditorUtility.SetDirty(offHandList[i].itemIcon);
+        //}
 
-        for (int i = 0; i < skinList.Length; i++)
-        {
-            skinList[i].itemId = i;
-            skinList[i].useAnim = true;
-            EditorUtility.SetDirty(skinList[i].itemIcon);
-        }
+        //for (int i = 0; i < skinList.Length; i++)
+        //{
+        //    skinList[i].itemId = i;
+        //    skinList[i].useAnim = true;
+        //    skinList[i].canUpgrade = true;
+        //    skinList[i].shopItemType = ShopItemType.Skin;
+        //    skinList[i].connectedSkin = chs[i];
+        //    skinList[i].itemName = chs[i].skinName;
+        //    //EditorUtility.SetDirty(skinList[i].itemIcon);
+        //}
 
-        for (int i = 0; i < diamondList.Length; i++)
-        {
-            diamondList[i].itemId = i;
-            EditorUtility.SetDirty(diamondList[i].itemIcon);
-        }
+        //for (int i = 0; i < diamondList.Length; i++)
+        //{
+        //    diamondList[i].itemId = i;
+        //    EditorUtility.SetDirty(diamondList[i].itemIcon);
+        //}
 
-        for (int i = 0; i < goldList.Length; i++)
-        {
-            goldList[i].itemId = i;
-            EditorUtility.SetDirty(goldList[i].itemIcon);
-        }
+        //for (int i = 0; i < goldList.Length; i++)
+        //{
+        //    goldList[i].itemId = i;
+        //    EditorUtility.SetDirty(goldList[i].itemIcon);
+        //}
 
-        for (int i = 0; i < talentItemList.Length; i++)
-        {
-            talentItemList[i].itemId = i;
-            EditorUtility.SetDirty(talentItemList[i].itemIcon);
-        }
+        //for (int i = 0; i < talentItemList.Length; i++)
+        //{
+        //    talentItemList[i].itemId = i;
+        //    EditorUtility.SetDirty(talentItemList[i].itemIcon);
+        //}
     }
 #endif
 
@@ -145,34 +151,30 @@ public class GameFollowData : MonoBehaviour
 [Serializable]
 public class ShopItemInfo
 {
-    public string itemName;
-    public int itemId;
-    public ShopItemType shopItemType;
-    public CurrencyType currencyType;
-    public Sprite itemIcon;
-    public float price, basePriceToUpgrade, value;
-    public string sku;
-    public bool currency;
-    public bool canUpgrade;
-    public bool useAnim;
-    [TextArea]
-    public string itemShortDesc;
+    [FoldoutGroup("Item")] public string itemName;
+    [FoldoutGroup("Item")] public int itemId;
+    [FoldoutGroup("Item")] public ShopItemType shopItemType;
+    [FoldoutGroup("Item")] public CurrencyType currencyType;
+    [FoldoutGroup("Item")] public Sprite itemIcon;
+    [FoldoutGroup("Item")] public float price, basePriceToUpgrade, value;
+    [FoldoutGroup("Item")] public string sku;
+    [FoldoutGroup("Item")] public bool currency;
+    [FoldoutGroup("Item")] public bool canUpgrade;
+    [FoldoutGroup("Item")] public bool useAnim;
+    [FoldoutGroup("Item")] [TextArea] public string itemShortDesc;
 
-    [Header("MAIN HAND")]
-    [SerializeField] Gun connectedGun;
-    public float damage => connectedGun.damage;
-    public float numPerShot => connectedGun.numberOfProjectiles;
-    public float rof => connectedGun.attackSpeed;
+    [BoxGroup("Item/Main Hand")] [SerializeField] Gun connectedGun;
+    [BoxGroup("Item/Main Hand")] public float damage => connectedGun.damage;
+    [BoxGroup("Item/Main Hand")] public float numPerShot => connectedGun.numberOfProjectiles;
+    [BoxGroup("Item/Main Hand")] public float rof => connectedGun.attackSpeed;
 
-    [Header("OFF HAND")]
-    public string function;
-    public float coolDown;
+    [BoxGroup("Item/Off Hand")] public string function;
+    [BoxGroup("Item/Off Hand")] public float coolDown;
 
-    [Header("SKIN")]
-    [SerializeField] CharacterSkin connectedSkin;
-    public float health => connectedSkin.health;
-    public float moveSpeed => connectedSkin.speed;
-    public int signatureCard;
+    [BoxGroup("Item/Skin")] [SerializeField] public CharacterSkin connectedSkin;
+    [BoxGroup("Item/Skin")] public float health => connectedSkin.health;
+    [BoxGroup("Item/Skin")] public float moveSpeed => connectedSkin.speed;
+    [BoxGroup("Item/Skin")] public int signatureCard;
 
     public bool IsUnlocked
     {

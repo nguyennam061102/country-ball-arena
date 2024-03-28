@@ -13,7 +13,7 @@ public class ShopItem : MonoBehaviour
     [SerializeField] private UI2DSprite icon, iconCurrency, sprButton;
     [SerializeField] private UILabel itemName, content, price;
     [SerializeField] private SkeletonAnimation anim;
-    [SerializeField] private Sprite iconGold, iconDiamond;
+    [SerializeField] private Sprite iconGold, iconDiamond, unlock, locks;
     private ShopItemInfo itemInfo;
 
     //[SerializeField] private ParticleSystem fxNormal, fxOwned, fxGold, fxDiamond;
@@ -59,13 +59,13 @@ public class ShopItem : MonoBehaviour
         {
             iconCurrency.gameObject.SetActive(false);
             this.price.transform.localPosition = Vector3.zero;
-            if (panelShop.shopInfo == PanelShop.ShopInfo.Gold) sprButton.color = new Color32(240, 154, 41, 255);
-            if (panelShop.shopInfo == PanelShop.ShopInfo.Diamond) sprButton.color = new Color32(240, 154, 41, 255);
+            if (panelShop.shopInfo == PanelShop.ShopInfo.Gold) sprButton.sprite2D = locks;
+            if (panelShop.shopInfo == PanelShop.ShopInfo.Diamond) sprButton.sprite2D = locks;
         }
 
         this.itemInfo = itemInfo;
         //lockGo.SetActive(!isUnlocked);
-        sprButton.color = itemInfo.IsUnlocked ? new Color32(240, 154, 41, 255) : new Color32(50, 184, 81, 255);
+        sprButton.sprite2D = itemInfo.IsUnlocked ? locks : unlock;
 
         //if ((bool)fxNormal) fxNormal.gameObject.SetActive(!itemInfo.IsUnlocked);
         //if ((bool)fxOwned) fxOwned.gameObject.SetActive(itemInfo.IsUnlocked);

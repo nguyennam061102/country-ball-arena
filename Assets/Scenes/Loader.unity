@@ -524,7 +524,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160447795}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -140, y: 0, z: 0}
+  m_LocalPosition: {x: -127, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -562,14 +562,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 3
-  mWidth: 94
-  mHeight: 92
+  mWidth: 62
+  mHeight: 66
   mDepth: 3
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.0217391
+  aspectRatio: 0.93939394
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -583,7 +583,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: 956835b97646adf4c90172c25fc6cd37, type: 3}
+  mSprite: {fileID: 21300000, guid: 65901aae8d9ec2d4d9f493adb9e197ff, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
@@ -756,7 +756,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179640628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -140, y: 0, z: 0}
+  m_LocalPosition: {x: -128, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -794,14 +794,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 3
-  mWidth: 104
-  mHeight: 94
+  mWidth: 70
+  mHeight: 66
   mDepth: 3
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.106383
+  aspectRatio: 1.060606
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -815,7 +815,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: 3bebc7d43c29c314f8dbe75b0bfcaf3f, type: 3}
+  mSprite: {fileID: 21300000, guid: 10888108e434f11469d1773f335db6fe, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
@@ -1281,7 +1281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538614133}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 0, z: 0}
+  m_LocalPosition: {x: -60, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1328,11 +1328,11 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 2.8333333
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 902736ba372512a4399839188780800d, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: 9805f526ab7e1b84f83c49ec65f92fd9, type: 3}
   mFont: {fileID: 0}
   mText: 1000
-  mFontSize: 50
-  mFontStyle: 0
+  mFontSize: 60
+  mFontStyle: 1
   mAlignment: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -2238,7 +2238,7 @@ MonoBehaviour:
   sorting: 0
   pivot: 3
   maxPerLine: 0
-  cellWidth: 280
+  cellWidth: 310
   cellHeight: 200
   animateSmoothly: 0
   hideInactive: 0
@@ -2252,7 +2252,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962486889}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -340, y: -40, z: 0}
+  m_LocalPosition: {x: -379, y: -40, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3155,7 +3155,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 274, y: 86, z: 0}
+  m_Size: {x: 300, y: 92, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1563730959
 MonoBehaviour:
@@ -3188,14 +3188,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 274
-  mHeight: 86
+  mWidth: 300
+  mHeight: 92
   mDepth: 2
   mMat: {fileID: 0}
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 3.1860466
+  aspectRatio: 3.2608695
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -3209,7 +3209,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: d0b5335c266e0134d9b3fed7f3e927b9, type: 3}
+  mSprite: {fileID: 21300000, guid: 6cdef9affd8d5194e87387d44603c22e, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
@@ -3785,7 +3785,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861555480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 280, y: -0, z: 0}
+  m_LocalPosition: {x: 310, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3835,7 +3835,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 274, y: 86, z: 0}
+  m_Size: {x: 300, y: 92, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1861555484
 MonoBehaviour:
@@ -3868,14 +3868,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 274
-  mHeight: 86
+  mWidth: 300
+  mHeight: 92
   mDepth: 2
   mMat: {fileID: 0}
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 3.1860466
+  aspectRatio: 3.2608695
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -3889,7 +3889,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: d0b5335c266e0134d9b3fed7f3e927b9, type: 3}
+  mSprite: {fileID: 21300000, guid: 6cdef9affd8d5194e87387d44603c22e, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
@@ -4130,52 +4130,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dailyMissionList:
   - type: 0
-    missionIcon: {fileID: 21300000, guid: 67eed4b1962852f4e82ba11b61e73852, type: 3}
+    missionIcon: {fileID: 21300000, guid: b60dcdf008caa33469765543665b3577, type: 3}
     minValue: 20
     maxValue: 40
     baseGoldReward: 100
   - type: 1
-    missionIcon: {fileID: 21300000, guid: 89b3bd47f2b402f46be7f6d5540600bc, type: 3}
+    missionIcon: {fileID: 21300000, guid: ea9abbca1b609bd43aea10ecb3f58f04, type: 3}
     minValue: 25
     maxValue: 50
     baseGoldReward: 80
   - type: 2
-    missionIcon: {fileID: 21300000, guid: 1146515dc3e4e0140acafaaca54422f9, type: 3}
+    missionIcon: {fileID: 21300000, guid: dd02c72567303c244987b9e2b6217acd, type: 3}
     minValue: 4
     maxValue: 8
     baseGoldReward: 500
   - type: 3
-    missionIcon: {fileID: 21300000, guid: 1a7afcaa89f1f1745ab443759aeb9ef5, type: 3}
+    missionIcon: {fileID: 21300000, guid: a177fe457f6b7df4ba8870d82f5d0147, type: 3}
     minValue: 20
     maxValue: 50
     baseGoldReward: 90
   - type: 4
-    missionIcon: {fileID: 21300000, guid: de35fde553217464c952ee2013e6c1a1, type: 3}
+    missionIcon: {fileID: 21300000, guid: 15d4dfb139633254abec63451188a7de, type: 3}
     minValue: 3
     maxValue: 8
     baseGoldReward: 120
   - type: 5
-    missionIcon: {fileID: 21300000, guid: 6429f7dbb05601f49a7db190b649d1c6, type: 3}
+    missionIcon: {fileID: 21300000, guid: 21daa9aef2d979145a55e4cdc35aecd0, type: 3}
     minValue: 100
     maxValue: 400
     baseGoldReward: 10
   - type: 6
-    missionIcon: {fileID: 21300000, guid: 2c4b25c24504aea4ba9fdf6b3c944a75, type: 3}
+    missionIcon: {fileID: 21300000, guid: 33f0cdc5b0ea59644a901553941a4bd6, type: 3}
     minValue: 1500
     maxValue: 4500
     baseGoldReward: 1
   - type: 7
-    missionIcon: {fileID: 21300000, guid: afdd375f7eac6ba418eadf39921137bc, type: 3}
+    missionIcon: {fileID: 21300000, guid: c22dfab18c05e694596d157290ec9096, type: 3}
     minValue: 10
     maxValue: 30
     baseGoldReward: 100
   - type: 8
-    missionIcon: {fileID: 21300000, guid: d619d7d7e7efc2c4a8b7e2451058ccd6, type: 3}
+    missionIcon: {fileID: 21300000, guid: e6dcd973f9ade554295651091ea07b75, type: 3}
     minValue: 1
     maxValue: 4
     baseGoldReward: 1200
   - type: 9
-    missionIcon: {fileID: 21300000, guid: 0548f0346c9d12a4db689de213690b7d, type: 3}
+    missionIcon: {fileID: 21300000, guid: d496a99b01fc8f14c9d8e1577d1385f6, type: 3}
     minValue: 1000
     maxValue: 3000
     baseGoldReward: 1
@@ -4230,7 +4230,7 @@ MonoBehaviour:
     itemId: 0
     shopItemType: 2
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 7ec976ba03ac6334d9eea0b0a4c67d90, type: 3}
+    itemIcon: {fileID: 21300000, guid: e61b0f35f22ca2f4bb0fec2a8d58cf88, type: 3}
     price: 3000
     basePriceToUpgrade: 3000
     value: 0
@@ -4249,7 +4249,7 @@ MonoBehaviour:
     itemId: 1
     shopItemType: 2
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 21e51117633f11346a2d7bab1c4b7247, type: 3}
+    itemIcon: {fileID: 21300000, guid: d70ded711404a964fabe85c7d5f22aa2, type: 3}
     price: 5000
     basePriceToUpgrade: 5000
     value: 0
@@ -4270,7 +4270,7 @@ MonoBehaviour:
     itemId: 2
     shopItemType: 2
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: c397f63a37c557a4c9363658253de10f, type: 3}
+    itemIcon: {fileID: 21300000, guid: f1a45ff739da919458af66ca9173d450, type: 3}
     price: 8000
     basePriceToUpgrade: 8000
     value: 0
@@ -4291,7 +4291,7 @@ MonoBehaviour:
     itemId: 3
     shopItemType: 2
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 513564ec0727e3b4da92de907a8e12e7, type: 3}
+    itemIcon: {fileID: 21300000, guid: aa40b9a6dffb02848b9674e1afb0065a, type: 3}
     price: 13000
     basePriceToUpgrade: 13000
     value: 0
@@ -4310,7 +4310,7 @@ MonoBehaviour:
     itemId: 4
     shopItemType: 2
     currencyType: 1
-    itemIcon: {fileID: 21300000, guid: 0fa4fefb902f8914a88561f1c20da90a, type: 3}
+    itemIcon: {fileID: 21300000, guid: 6b03a84a7dad02d42a0b9e8db76a0c28, type: 3}
     price: 99
     basePriceToUpgrade: 21000
     value: 0
@@ -4329,7 +4329,7 @@ MonoBehaviour:
     itemId: 5
     shopItemType: 2
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 1d593f662a1ea794a9f97ace27ec36c8, type: 3}
+    itemIcon: {fileID: 21300000, guid: c33b6f2ee474f454c992221e8f9b124f, type: 3}
     price: 22000
     basePriceToUpgrade: 22000
     value: 0
@@ -4350,7 +4350,7 @@ MonoBehaviour:
     itemId: 6
     shopItemType: 2
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 949d578ba3e59aa43b9fd5a1459452fa, type: 3}
+    itemIcon: {fileID: 21300000, guid: 33aec49e798080046a2d4601ed947b74, type: 3}
     price: 34000
     basePriceToUpgrade: 34000
     value: 0
@@ -4369,7 +4369,7 @@ MonoBehaviour:
     itemId: 7
     shopItemType: 2
     currencyType: 1
-    itemIcon: {fileID: 21300000, guid: c267a174d422ab343a966add3e560303, type: 3}
+    itemIcon: {fileID: 21300000, guid: 7e3e139ae45e2ae418b5ed64e50d4ab0, type: 3}
     price: 129
     basePriceToUpgrade: 32000
     value: 0
@@ -4388,7 +4388,7 @@ MonoBehaviour:
     itemId: 8
     shopItemType: 2
     currencyType: 1
-    itemIcon: {fileID: 21300000, guid: 9a001cce3c81ee046982dbae0b9992c5, type: 3}
+    itemIcon: {fileID: 21300000, guid: bcdbdcb77b6699845a10f2d84afb89d4, type: 3}
     price: 199
     basePriceToUpgrade: 45000
     value: 0
@@ -4407,7 +4407,7 @@ MonoBehaviour:
     itemId: 9
     shopItemType: 2
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 1843b256fe6f4b743afc3e8d44f5c3b4, type: 3}
+    itemIcon: {fileID: 21300000, guid: a22aef445611ee540bd21df6614263ba, type: 3}
     price: 50000
     basePriceToUpgrade: 50000
     value: 0
@@ -4426,7 +4426,7 @@ MonoBehaviour:
     itemId: 10
     shopItemType: 2
     currencyType: 1
-    itemIcon: {fileID: 21300000, guid: 0c8529bbd58388240b3a1ffb31abdc5a, type: 3}
+    itemIcon: {fileID: 21300000, guid: 2c4ddc47214459a428e7ccbe4b6a9b7d, type: 3}
     price: 399
     basePriceToUpgrade: 70000
     value: 0
@@ -4446,7 +4446,7 @@ MonoBehaviour:
     itemId: 0
     shopItemType: 3
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 51e4968da4793ea4d862a10ab482d212, type: 3}
+    itemIcon: {fileID: 21300000, guid: 2904653046cb9294caa94224fef46926, type: 3}
     price: 0
     basePriceToUpgrade: 0
     value: 0
@@ -4464,7 +4464,7 @@ MonoBehaviour:
     itemId: 1
     shopItemType: 3
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 5ab6f0af44b35b5418df2e89dd3d905d, type: 3}
+    itemIcon: {fileID: 21300000, guid: e51509fabc1a59d4e804df2773107801, type: 3}
     price: 40000
     basePriceToUpgrade: 40000
     value: 0
@@ -4482,7 +4482,7 @@ MonoBehaviour:
     itemId: 2
     shopItemType: 3
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 6ecd13f4e7958b041ba75de221ee8926, type: 3}
+    itemIcon: {fileID: 21300000, guid: 040b4d286224efc43ae62cd1709990dc, type: 3}
     price: 25000
     basePriceToUpgrade: 25000
     value: 0
@@ -4502,7 +4502,7 @@ MonoBehaviour:
     itemId: 3
     shopItemType: 3
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 0183759175fe0244c81c46f36563bdf9, type: 3}
+    itemIcon: {fileID: 21300000, guid: e62726a225a1d22458bc8d3149509935, type: 3}
     price: 45000
     basePriceToUpgrade: 45000
     value: 0
@@ -4522,7 +4522,7 @@ MonoBehaviour:
     itemId: 4
     shopItemType: 3
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: d7062d9424e4b4f409637520a1a7d5ad, type: 3}
+    itemIcon: {fileID: 21300000, guid: 9ea65c614ced12e4894eb0ae47e0369b, type: 3}
     price: 15000
     basePriceToUpgrade: 15000
     value: 0
@@ -4537,7 +4537,7 @@ MonoBehaviour:
     connectedSkin: {fileID: 0}
     signatureCard: 0
   skinList:
-  - itemName: Capsule
+  - itemName: China
     itemId: 0
     shopItemType: 4
     currencyType: 0
@@ -4555,7 +4555,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: 0a0b205678aa774438ba03b854b5950f, type: 2}
     signatureCard: 0
-  - itemName: Impostor
+  - itemName: Japan
     itemId: 1
     shopItemType: 4
     currencyType: 0
@@ -4573,7 +4573,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: 386de0c73c47b584bae8c03859784894, type: 2}
     signatureCard: 15
-  - itemName: Super Pill
+  - itemName: America
     itemId: 2
     shopItemType: 4
     currencyType: 0
@@ -4591,7 +4591,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: 0ce98142f7175084e97b439b27633c3d, type: 2}
     signatureCard: 13
-  - itemName: The Duck
+  - itemName: Viet Nam
     itemId: 3
     shopItemType: 4
     currencyType: 0
@@ -4609,7 +4609,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: 2db6eeaccb95f444ca40a25a63758379, type: 2}
     signatureCard: 1
-  - itemName: Hiphop Master
+  - itemName: United Nations
     itemId: 4
     shopItemType: 4
     currencyType: 1
@@ -4627,7 +4627,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: 9ec4a1b5ceb08f549bec7781e174d230, type: 2}
     signatureCard: 16
-  - itemName: Two Eyes Alien
+  - itemName: Canada
     itemId: 5
     shopItemType: 4
     currencyType: 0
@@ -4647,7 +4647,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: 11785957e2eda834f966e3e743d1a85c, type: 2}
     signatureCard: 8
-  - itemName: Mr.Melon
+  - itemName: England
     itemId: 6
     shopItemType: 4
     currencyType: 0
@@ -4665,7 +4665,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: 0b16e5c7c9f70b14b90ca510662a8105, type: 2}
     signatureCard: 0
-  - itemName: Blue Pig
+  - itemName: Brazil
     itemId: 7
     shopItemType: 4
     currencyType: 1
@@ -4683,7 +4683,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: c22dd4d79a5c79a44bf29395071ee4f3, type: 2}
     signatureCard: 2
-  - itemName: Thief
+  - itemName: Korea
     itemId: 8
     shopItemType: 4
     currencyType: 0
@@ -4701,7 +4701,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: ab90833f449e924458d9ccaa4e1b9852, type: 2}
     signatureCard: 5
-  - itemName: Dino boi
+  - itemName: Saudi Arabic
     itemId: 9
     shopItemType: 4
     currencyType: 0
@@ -4719,7 +4719,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: 1f04337bf0900dd48bf798bb1f84f60a, type: 2}
     signatureCard: 17
-  - itemName: Agent Banana
+  - itemName: Mexican
     itemId: 10
     shopItemType: 4
     currencyType: 1
@@ -4737,7 +4737,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: 9df99c96d1771524abc9ae74bb74e5c4, type: 2}
     signatureCard: 7
-  - itemName: U Mad Bro?
+  - itemName: France
     itemId: 11
     shopItemType: 4
     currencyType: 0
@@ -4755,7 +4755,7 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: 1d7d60c3d3305d4499959fd5dbe48acc, type: 2}
     signatureCard: 20
-  - itemName: (?-?)
+  - itemName: Poland
     itemId: 12
     shopItemType: 4
     currencyType: 1
@@ -4773,12 +4773,138 @@ MonoBehaviour:
     coolDown: 0
     connectedSkin: {fileID: 11400000, guid: e0022a7004582024ca5a8c6c1e18e70f, type: 2}
     signatureCard: 23
+  - itemName: Russia
+    itemId: 13
+    shopItemType: 4
+    currencyType: 0
+    itemIcon: {fileID: 21300000, guid: ee1c055266f7f8c4ea1ab740c7788360, type: 3}
+    price: 80000
+    basePriceToUpgrade: 80000
+    value: 0
+    sku: 
+    currency: 0
+    canUpgrade: 1
+    useAnim: 1
+    itemShortDesc: 
+    connectedGun: {fileID: 0}
+    function: 
+    coolDown: 0
+    connectedSkin: {fileID: 11400000, guid: acbeec6c7ced2e34e9a3da3c8e3f3604, type: 2}
+    signatureCard: 19
+  - itemName: Thailand
+    itemId: 14
+    shopItemType: 4
+    currencyType: 0
+    itemIcon: {fileID: 21300000, guid: cbc076e7c3e428d4c80effebae67d6e6, type: 3}
+    price: 85000
+    basePriceToUpgrade: 85000
+    value: 0
+    sku: 
+    currency: 0
+    canUpgrade: 1
+    useAnim: 1
+    itemShortDesc: 
+    connectedGun: {fileID: 0}
+    function: 
+    coolDown: 0
+    connectedSkin: {fileID: 11400000, guid: 057b5932e49688e448d0c21ba5662c39, type: 2}
+    signatureCard: 15
+  - itemName: Indonesia
+    itemId: 15
+    shopItemType: 4
+    currencyType: 1
+    itemIcon: {fileID: 21300000, guid: c416c23a5e5f15241ae15344bd28aeab, type: 3}
+    price: 599
+    basePriceToUpgrade: 82000
+    value: 0
+    sku: 
+    currency: 0
+    canUpgrade: 1
+    useAnim: 1
+    itemShortDesc: 
+    connectedGun: {fileID: 0}
+    function: 
+    coolDown: 0
+    connectedSkin: {fileID: 11400000, guid: c7c05fb57352e6b4daf797f931bdc45b, type: 2}
+    signatureCard: 3
+  - itemName: Malaysia
+    itemId: 16
+    shopItemType: 4
+    currencyType: 0
+    itemIcon: {fileID: 21300000, guid: 85d834b2fa66bd340a67ec67bf92c2c7, type: 3}
+    price: 90000
+    basePriceToUpgrade: 90000
+    value: 0
+    sku: 
+    currency: 0
+    canUpgrade: 1
+    useAnim: 1
+    itemShortDesc: 
+    connectedGun: {fileID: 0}
+    function: 
+    coolDown: 0
+    connectedSkin: {fileID: 11400000, guid: 67d5cc1370d072e46ba25fbb2839649b, type: 2}
+    signatureCard: 6
+  - itemName: Germany
+    itemId: 17
+    shopItemType: 4
+    currencyType: 0
+    itemIcon: {fileID: 21300000, guid: a4274436f348390489f393eb5026e360, type: 3}
+    price: 0
+    basePriceToUpgrade: 75000
+    value: 0
+    sku: 
+    currency: 0
+    canUpgrade: 1
+    useAnim: 1
+    itemShortDesc: 
+    connectedGun: {fileID: 0}
+    function: 
+    coolDown: 0
+    connectedSkin: {fileID: 11400000, guid: 861c27ff85a628849a1f16ff83ea784d, type: 2}
+    signatureCard: 0
+  - itemName: Australia
+    itemId: 18
+    shopItemType: 4
+    currencyType: 0
+    itemIcon: {fileID: 21300000, guid: 5b451deae170579469003a09d50c98ea, type: 3}
+    price: 70000
+    basePriceToUpgrade: 70000
+    value: 0
+    sku: 
+    currency: 0
+    canUpgrade: 1
+    useAnim: 1
+    itemShortDesc: 
+    connectedGun: {fileID: 0}
+    function: 
+    coolDown: 0
+    connectedSkin: {fileID: 11400000, guid: 2693c6d1c2191a44f86aa0a387e6025c, type: 2}
+    signatureCard: 10
+  - itemName: Singapore
+    itemId: 19
+    shopItemType: 4
+    currencyType: 0
+    itemIcon: {fileID: 21300000, guid: 523919053b9f6f4418768febde0cdf8c, type: 3}
+    price: 0
+    basePriceToUpgrade: 80000
+    value: 0
+    sku: 
+    currency: 0
+    canUpgrade: 1
+    useAnim: 1
+    itemShortDesc: 
+    connectedGun: {fileID: 0}
+    function: 
+    coolDown: 0
+    connectedSkin: {fileID: 11400000, guid: 63b863b83fb1f784aa355d742829b469, type: 2}
+    signatureCard: 21
   diamondList:
   - itemName: Bag of Diamonds
     itemId: 0
     shopItemType: 0
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 88062d1c8f7f2a04baddef3db89bf4c1, type: 3}
+    itemIcon: {fileID: 21300000, guid: 67ff62827abb82a4aa4b1cfadc9442e0, type: 3}
     price: 0.99
     basePriceToUpgrade: 0
     value: 100
@@ -4796,7 +4922,7 @@ MonoBehaviour:
     itemId: 1
     shopItemType: 0
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 6e4a157f01059644ba3f69d84b40ed5a, type: 3}
+    itemIcon: {fileID: 21300000, guid: 6744b96a131f65945b55f2b3dd90e1ca, type: 3}
     price: 1.99
     basePriceToUpgrade: 0
     value: 210
@@ -4814,7 +4940,7 @@ MonoBehaviour:
     itemId: 2
     shopItemType: 0
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 9ed107427199f1f4da38b4abf1b56d3f, type: 3}
+    itemIcon: {fileID: 21300000, guid: 2679c6aeba49f8943a1bae1916f38e29, type: 3}
     price: 4.99
     basePriceToUpgrade: 0
     value: 550
@@ -4832,7 +4958,7 @@ MonoBehaviour:
     itemId: 3
     shopItemType: 0
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 2cafa6d502ee0074eb37bfbdfb734ec3, type: 3}
+    itemIcon: {fileID: 21300000, guid: 549ae4a7b109aef439c0571a27210a46, type: 3}
     price: 9.99
     basePriceToUpgrade: 0
     value: 1150
@@ -4850,7 +4976,7 @@ MonoBehaviour:
     itemId: 4
     shopItemType: 0
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 951188f263892234c90474a5bb665644, type: 3}
+    itemIcon: {fileID: 21300000, guid: f7551b2d283157d43ba18bd1c565b598, type: 3}
     price: 19.99
     basePriceToUpgrade: 0
     value: 2400
@@ -4869,7 +4995,7 @@ MonoBehaviour:
     itemId: 0
     shopItemType: 0
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: d5f861d4f5245ca4cbc67414078d1360, type: 3}
+    itemIcon: {fileID: 21300000, guid: b1c71259961556a4882e005ad86066dd, type: 3}
     price: 0.99
     basePriceToUpgrade: 0
     value: 5000
@@ -4887,7 +5013,7 @@ MonoBehaviour:
     itemId: 1
     shopItemType: 0
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: cb018d09411114241adb2fd2172dfdfb, type: 3}
+    itemIcon: {fileID: 21300000, guid: 32de425856bcbda4096e206efc55e427, type: 3}
     price: 1.99
     basePriceToUpgrade: 0
     value: 11000
@@ -4905,7 +5031,7 @@ MonoBehaviour:
     itemId: 2
     shopItemType: 0
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: 085103cc8dcf06b498799dfb577404d1, type: 3}
+    itemIcon: {fileID: 21300000, guid: c6da27d3d52d23944b3439800726d787, type: 3}
     price: 4.99
     basePriceToUpgrade: 0
     value: 30000
@@ -4923,7 +5049,7 @@ MonoBehaviour:
     itemId: 3
     shopItemType: 0
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: aa8d73de10156c540a007d1abb4faa37, type: 3}
+    itemIcon: {fileID: 21300000, guid: 6eefcb9b9a4cd674786c4b2bc22de457, type: 3}
     price: 9.99
     basePriceToUpgrade: 0
     value: 65000
@@ -4941,7 +5067,7 @@ MonoBehaviour:
     itemId: 4
     shopItemType: 0
     currencyType: 0
-    itemIcon: {fileID: 21300000, guid: f8dc40b42babfed4b95ef5207d5a0cfa, type: 3}
+    itemIcon: {fileID: 21300000, guid: 43e85b5c92e310f429e287fede534e42, type: 3}
     price: 19.99
     basePriceToUpgrade: 0
     value: 140000
@@ -4958,43 +5084,43 @@ MonoBehaviour:
   talentItemList:
   - itemName: HP
     itemId: 0
-    itemIcon: {fileID: 21300000, guid: 4e6e8be7e5ef5fe4cb2ef168622f34f0, type: 3}
+    itemIcon: {fileID: 21300000, guid: d0388e040c22ceb4ab86b80f8e0468a1, type: 3}
     baseValue: 5
   - itemName: Gun DMG
     itemId: 1
-    itemIcon: {fileID: 21300000, guid: 0c999cfb90d7ae24bad263aa83fffe6f, type: 3}
+    itemIcon: {fileID: 21300000, guid: d20fbc6b35b0a2f4ebacf6e4ca6bae70, type: 3}
     baseValue: 5
   - itemName: Move Speed
     itemId: 2
-    itemIcon: {fileID: 21300000, guid: c25be4c8f9c92454191ec13b45f36e66, type: 3}
+    itemIcon: {fileID: 21300000, guid: b0ed4601285ff2d48a19168724ac7939, type: 3}
     baseValue: 1
   - itemName: Avoid
     itemId: 3
-    itemIcon: {fileID: 21300000, guid: 412fef78a5717f54fb83359e4393bb03, type: 3}
+    itemIcon: {fileID: 21300000, guid: dbe40bc46cf7a8f4bb32b0c98e74c23b, type: 3}
     baseValue: 3
   - itemName: Skill DMG
     itemId: 4
-    itemIcon: {fileID: 21300000, guid: 5f8fd6f76c77c224590bb95092a648ed, type: 3}
+    itemIcon: {fileID: 21300000, guid: be26162b845b37c43b41ae27df569bb3, type: 3}
     baseValue: 10
   - itemName: CD Reduction
     itemId: 5
-    itemIcon: {fileID: 21300000, guid: bbb93d9838fbcb64e9b9de7b66d84132, type: 3}
+    itemIcon: {fileID: 21300000, guid: 2e014ff36da5ca941b843c579bd84013, type: 3}
     baseValue: 1
   - itemName: Critical Chance
     itemId: 6
-    itemIcon: {fileID: 21300000, guid: 97ffd265675841b49842618992e645f5, type: 3}
+    itemIcon: {fileID: 21300000, guid: 65f3ecc7eacdec44da63109c9e9d3b0e, type: 3}
     baseValue: 1
   - itemName: Gold Bonus
     itemId: 7
-    itemIcon: {fileID: 21300000, guid: 3f89a73241e3c0641b654b267bb5cd60, type: 3}
+    itemIcon: {fileID: 21300000, guid: e6795c56b4e654346ad9b55aeb01eaf1, type: 3}
     baseValue: 25
   - itemName: DMG Reduction
     itemId: 8
-    itemIcon: {fileID: 21300000, guid: 346e14b1c08080245b1339d6ae064bfb, type: 3}
+    itemIcon: {fileID: 21300000, guid: 3df0793c527d848488835d8d4fd0fa3a, type: 3}
     baseValue: 2
   - itemName: EXP
     itemId: 9
-    itemIcon: {fileID: 21300000, guid: cef8b73c5c9827049b2d29cc60f04d81, type: 3}
+    itemIcon: {fileID: 21300000, guid: 3f32411572f672d40a39f253dd698420, type: 3}
     baseValue: 10
   playingGameMode: 0
   Player2SkinID: 0
@@ -5058,7 +5184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066263170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30, y: 0, z: 0}
+  m_LocalPosition: {x: -50, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5105,11 +5231,11 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 2.6666667
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 902736ba372512a4399839188780800d, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: df4be1a0c2bd81c45ac59d86daa7e640, type: 3}
   mFont: {fileID: 0}
   mText: 1000
-  mFontSize: 50
-  mFontStyle: 0
+  mFontSize: 60
+  mFontStyle: 1
   mAlignment: 0
   mEncoding: 1
   mMaxLineCount: 0

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayerSkin3
   m_EditorClassIdentifier: 
   skinId: 3
-  skinSprite: {fileID: 21300000, guid: ad930195ce47cb34297fede92b5a347c, type: 3}
+  skinSprite: {fileID: 21300000, guid: 098f144b0723f614e88718c680bb7a92, type: 3}
   defaultSkin: 0
   useColor: 1
-  skinColor: {r: 1, g: 0.85098046, b: 0.25490198, a: 1}
+  skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: 911195b2001af1b4b92231ac0f833cf6, type: 2}
-  skinName: The Duck
+  skinName: Viet Nam
   health: 140
   speed: 100

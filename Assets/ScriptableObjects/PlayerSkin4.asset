@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayerSkin4
   m_EditorClassIdentifier: 
   skinId: 4
-  skinSprite: {fileID: 21300000, guid: eb86cddc87292c347ab2779c2e1bc46b, type: 3}
+  skinSprite: {fileID: 21300000, guid: 70b6d97c1225e274fae3532d9715f084, type: 3}
   defaultSkin: 0
   useColor: 1
-  skinColor: {r: 0.56078434, g: 0.18431373, b: 0.7176471, a: 1}
+  skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: d77deef86fe9b1246a23db64f072ebbd, type: 2}
-  skinName: Hiphop Master
+  skinName: United Nations
   health: 110
   speed: 130

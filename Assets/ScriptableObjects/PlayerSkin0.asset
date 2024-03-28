@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayerSkin0
   m_EditorClassIdentifier: 
   skinId: 0
-  skinSprite: {fileID: 21300000, guid: af324aeb28c818549a8c270e40d6e82d, type: 3}
-  defaultSkin: 1
+  skinSprite: {fileID: 21300000, guid: 189b500242bc2ab479c05a7f9dd7b15e, type: 3}
+  defaultSkin: 0
   useColor: 1
-  skinColor: {r: 1, g: 1, b: 1, a: 1}
+  skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: ef4bcf7f73198e34582474d833590a90, type: 2}
-  skinName: Capsule
+  skinName: China
   health: 100
   speed: 100
