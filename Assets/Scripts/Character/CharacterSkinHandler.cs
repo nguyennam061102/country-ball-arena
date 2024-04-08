@@ -12,6 +12,7 @@ public class CharacterSkinHandler : MonoBehaviour
     public CharacterSkin skin;
     public SpriteRenderer headSr;
     public SkeletonAnimation faceAnim;
+    public SpriteRenderer eye;
 
     public Color color;
 
@@ -20,6 +21,14 @@ public class CharacterSkinHandler : MonoBehaviour
     void SetupSkin()
     {
         headSr.sprite = skin.skinSprite;
+        if (Data.AI)
+        {
+            int index = Random.Range(0, GameFollowData.Instance.eyes.Count);
+            eye.sprite = GameFollowData.Instance.eyes[index];
+        }else
+        {
+            eye.sprite = GameFollowData.Instance.eyes[GameData.PlayerEye];
+        }
         if (skin.defaultSkin)
         {
             if (Data.player.playerID == 0)
@@ -39,13 +48,14 @@ public class CharacterSkinHandler : MonoBehaviour
         {
             color = skin.useColor ? skin.skinColor : Color.white;
         }
-        headSr.color = color;
+        //headSr.color = color;
         Data.SetLandPartColor();
         Data.blockTrigger.SetBlock();
-        faceAnim.skeletonDataAsset = skin.faceAnim;
-        faceAnim.ClearState();
-        faceAnim.Initialize(true);
-        faceAnim.state.SetAnimation(0, "idle", true);
+        //faceAnim.skeletonDataAsset = skin.faceAnim;
+        //faceAnim.ClearState();
+        //faceAnim.Initialize(true);
+        //faceAnim.state.SetAnimation(0, "idle", true);
+        //faceAnim.gameObject.SetActive(false);
         onSetSkinAction?.Invoke();
     }
 
@@ -88,7 +98,7 @@ public class CharacterSkinHandler : MonoBehaviour
 
     public void Win()
     {
-        faceAnim.state.SetAnimation(0, "win", true);
+        //faceAnim.state.SetAnimation(0, "win", true);
     }
 
     int GetRandomSkin()

@@ -28,7 +28,7 @@ public class MapController : SingletonMonoBehavior<MapController>
         //if (!FGColor.isInit) FGColor.Init();
         //if (!BGColor.isInit) BGColor.Init();
 
-        bgMap.transform.localScale = Vector3.one * 3 * GameUtils.GetBackgroundScaleSize();
+        bgMap.transform.localScale = Vector3.one * 2f;
         bgMap.sprite = allBGs[Random.Range(0, allBGs.Length)];
         bgMap.color = new Color32(180, 180, 180, 255);
 

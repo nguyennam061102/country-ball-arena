@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.XR;
 using Random = UnityEngine.Random;
 
 public class SpinWheelItem : MonoBehaviour
@@ -42,6 +43,8 @@ public class SpinWheelItem : MonoBehaviour
 
         this.prizeIcon.sprite2D = prizeIcon;
         this.prizeIcon.MakePixelPerfect();
+        this.prizeIcon.width = Mathf.RoundToInt(this.prizeIcon.width * 0.5f);
+        this.prizeIcon.height = Mathf.RoundToInt(this.prizeIcon.height * 0.5f);
         this.prizeValue.text = $"+{this.prizeAmount}";
     }
 

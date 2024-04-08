@@ -2172,7 +2172,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3021
+  startingRenderQueue: 3020
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 3
@@ -5671,11 +5671,11 @@ MonoBehaviour:
   characterAnim: {fileID: 5268804091104427557}
   offHand: {fileID: 8204177796201305943}
   offHandList:
-  - {fileID: 21300000, guid: 51e4968da4793ea4d862a10ab482d212, type: 3}
-  - {fileID: 21300000, guid: 5ab6f0af44b35b5418df2e89dd3d905d, type: 3}
-  - {fileID: 21300000, guid: 6ecd13f4e7958b041ba75de221ee8926, type: 3}
-  - {fileID: 21300000, guid: 0183759175fe0244c81c46f36563bdf9, type: 3}
-  - {fileID: 21300000, guid: d7062d9424e4b4f409637520a1a7d5ad, type: 3}
+  - {fileID: 21300000, guid: 2904653046cb9294caa94224fef46926, type: 3}
+  - {fileID: 21300000, guid: e51509fabc1a59d4e804df2773107801, type: 3}
+  - {fileID: 21300000, guid: 040b4d286224efc43ae62cd1709990dc, type: 3}
+  - {fileID: 21300000, guid: e62726a225a1d22458bc8d3149509935, type: 3}
+  - {fileID: 21300000, guid: 9ea65c614ced12e4894eb0ae47e0369b, type: 3}
   mainHand:
   - {fileID: 7525299532069812587}
   - {fileID: 3144530029044549157}
@@ -5705,6 +5705,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9df99c96d1771524abc9ae74bb74e5c4, type: 2}
   - {fileID: 11400000, guid: 1d7d60c3d3305d4499959fd5dbe48acc, type: 2}
   - {fileID: 11400000, guid: e0022a7004582024ca5a8c6c1e18e70f, type: 2}
+  - {fileID: 11400000, guid: acbeec6c7ced2e34e9a3da3c8e3f3604, type: 2}
+  - {fileID: 11400000, guid: 057b5932e49688e448d0c21ba5662c39, type: 2}
+  - {fileID: 11400000, guid: c7c05fb57352e6b4daf797f931bdc45b, type: 2}
+  - {fileID: 11400000, guid: 67d5cc1370d072e46ba25fbb2839649b, type: 2}
+  - {fileID: 11400000, guid: 861c27ff85a628849a1f16ff83ea784d, type: 2}
+  - {fileID: 11400000, guid: 2693c6d1c2191a44f86aa0a387e6025c, type: 2}
+  - {fileID: 11400000, guid: 63b863b83fb1f784aa355d742829b469, type: 2}
   hpText: {fileID: 8934946907437820771}
   damageText: {fileID: 4944266391246325330}
   matchLevelText: {fileID: 7050041037845759930}

@@ -9,7 +9,7 @@ public class InventoryItem : MonoBehaviour
     private ShopItemInfo itemInfo;
 
     public int itemId, itemLevel;
-    [SerializeField] private UI2DSprite icon;
+    [SerializeField] private UI2DSprite icon, eye;
     [SerializeField] private string itemName, content;
     [SerializeField] UILabel lbName, lbLevel;
     public GameObject selectItem;
@@ -36,6 +36,11 @@ public class InventoryItem : MonoBehaviour
                 selectItem.SetActive(itemId == GameData.CurrentOffHandId);
                 break;
             case ShopItemType.Skin:
+                eye.sprite2D = itemInfo.eye;
+                eye.gameObject.SetActive(true);
+                eye.MakePixelPerfect();
+                eye.width = Mathf.RoundToInt( eye.width * 0.5f);
+                eye.height = Mathf.RoundToInt(eye.height * 0.5f);
                 selectItem.SetActive(itemId == GameData.CurrentSkinId);
                 break;
             default:

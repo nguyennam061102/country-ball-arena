@@ -12,6 +12,7 @@ public class PanelPause : MonoBehaviour
     [SerializeField] private UI2DSprite sprSound, sprMusic, sprGraphics;
     [SerializeField] private UI2DSprite cardPrefab;
     [SerializeField] private UIGrid cardParent;
+    [SerializeField] private Sprite on, off;
 
     private void OnEnable()
     {
@@ -100,9 +101,9 @@ public class PanelPause : MonoBehaviour
 
     void SetButtonColor()
     {
-        sprSound.color = GameData.Sound ? new Color32(50, 184, 81, 255) : new Color32(128, 132, 134, 255);
-        sprMusic.color = GameData.Sound ? new Color32(50, 184, 81, 255) : new Color32(128, 132, 134, 255);
-        sprGraphics.color = GameData.GraphicsLevel == 0 ? new Color32(50, 184, 81, 255) : new Color32(240, 154, 41, 255);
+        sprSound.sprite2D = GameData.Sound ? on : off;
+        sprMusic.sprite2D = GameData.Sound ? on : off;
+        sprGraphics.sprite2D = GameData.GraphicsLevel == 0 ? on : off;
     }
 
 }

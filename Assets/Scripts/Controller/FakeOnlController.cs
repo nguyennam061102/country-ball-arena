@@ -9,7 +9,11 @@ public class FakeOnlController : SingletonMonoBehavior<FakeOnlController>
     [SerializeField] private bool needDontDestroy = false;
     [SerializeField] List<string> nameOfAI;
     [SerializeField] List<int> nameInGame;
+    [SerializeField] List<Sprite> emoji;
     int randomIndex;
+
+    public List<Sprite> Emoji { get => emoji; set => emoji = value; }
+
     protected override void Awake()
     {
         base.Awake();
@@ -24,6 +28,7 @@ public class FakeOnlController : SingletonMonoBehavior<FakeOnlController>
         nameInGame.RemoveAt(0);
         return newName;
     }
+    
     //[Button]
     //void Test()
     //{

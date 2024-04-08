@@ -55,7 +55,7 @@ public class PanelMenu : MonoBehaviour
         }
         else
         {
-            logoAnim.SetActive(false);
+            //logoAnim.SetActive(false);
             logo.SetActive(true);
         }
     }
@@ -82,10 +82,10 @@ public class PanelMenu : MonoBehaviour
     private IEnumerator LogoExecution()
     {
         yield return new WaitForSeconds(timeIn);
-        logoTransition.PlayForward();
+        //logoTransition.PlayForward();
         yield return new WaitForSeconds(timeOut);
-        logoTransition.PlayReverse();
-        logoAnim.SetActive(false);
+        //logoTransition.PlayReverse();
+        //logoAnim.SetActive(false);
         logo.SetActive(true);
     }
 

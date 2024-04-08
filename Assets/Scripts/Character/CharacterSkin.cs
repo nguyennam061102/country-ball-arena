@@ -6,6 +6,7 @@ public class CharacterSkin : ScriptableObject
 {
     public int skinId;
     public Sprite skinSprite;
+    public Sprite eye;
     public bool defaultSkin, useColor;
     public Color skinColor = new Color(255, 255, 255, 255);
     public SkeletonDataAsset faceAnim;

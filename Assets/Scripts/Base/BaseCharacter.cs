@@ -1,8 +1,8 @@
-﻿using System;
+﻿using DG.Tweening;
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class BaseCharacter : MonoBehaviour
 {
@@ -126,7 +126,7 @@ public class BaseCharacter : MonoBehaviour
     public Holdable[] weaponList;
 
     public int level;
-
+    public Image emoji;
     public Gun Gun => holding.holdable.GetComponent<Gun>();
 
     //todo: LHD Modify
@@ -208,7 +208,18 @@ public class BaseCharacter : MonoBehaviour
         }
         wasWallGrabLastFrame = false;
     }
-
+    public void SetEmoji(int id)
+    {
+        emoji.gameObject.SetActive(true);
+        emoji.sprite = FakeOnlController.Instance.Emoji[id];
+        StartCoroutine(EndEmoji());
+    }
+    IEnumerator EndEmoji()
+    {
+        yield return new WaitForSeconds(2);
+        emoji.gameObject.SetActive(false);
+        
+    }
     public void TouchGround(Vector3 pos, Vector3 groundNormal, Rigidbody2D groundRig, Transform groundTransform = null)
     {
         if (sinceJump > 0.2f)

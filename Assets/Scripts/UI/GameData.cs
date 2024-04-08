@@ -213,7 +213,11 @@ public static class GameData
         get => PlayerPrefs.GetString("PlayerName", "Player");
         set => PlayerPrefs.SetString("PlayerName", value);
     }
-
+    public static int PlayerEye
+    {
+        get => PlayerPrefs.GetInt("PlayerEye", 0);
+        set => PlayerPrefs.SetInt("PlayerEye", value);
+    }
     #endregion
 
     #region INVENTORY

@@ -8,6 +8,7 @@ public class PlayerAssigner : MonoBehaviour
     public GameObject playerPrefab;
     int maxPlayers = 4;
     public List<BaseCharacter> players = new List<BaseCharacter>(4);
+    public BaseCharacter mainPlayer;
     private int playerIDToSet = -1;
 
     private void Awake()
@@ -51,6 +52,7 @@ public class PlayerAssigner : MonoBehaviour
             else
             {
                 component.nameAI = GameData.PlayerName;
+                mainPlayer = component;
                 component.holding.holdablePrefab = component.weaponList[GameData.CurrentMainHandId];
                 component.holding.SpawnGun();
             }           

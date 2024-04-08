@@ -14,7 +14,7 @@ public class GameFollowData : MonoBehaviour
     public ShopItemInfo[] skinList;
     public ShopItemInfo[] diamondList;
     public ShopItemInfo[] goldList;
-
+    public List<Sprite> eyes;
     [Header("===TALENTS===")] public TalentItemInfo[] talentItemList;
     [Header("===PLAYING GAME MODE===")] public GameMode playingGameMode;
     public int Player2SkinID, Player2WeaponID, Player2OffhandID, Player3SkinID, Player3WeaponID, Player3OffhandID;
@@ -156,6 +156,7 @@ public class ShopItemInfo
     [FoldoutGroup("Item")] public ShopItemType shopItemType;
     [FoldoutGroup("Item")] public CurrencyType currencyType;
     [FoldoutGroup("Item")] public Sprite itemIcon;
+    [FoldoutGroup("Item")] public Sprite eye;
     [FoldoutGroup("Item")] public float price, basePriceToUpgrade, value;
     [FoldoutGroup("Item")] public string sku;
     [FoldoutGroup("Item")] public bool currency;

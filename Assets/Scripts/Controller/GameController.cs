@@ -254,7 +254,12 @@ public class GameController : SingletonMonoBehavior<GameController>
             inGameMusic.mute = !GameData.Music;
         }
     }
-
+    [SerializeField] PanelEmoji panelEmoji;
+    public void OnEmojiButton()
+    {
+        Sound.Play(Sound.SoundData.ButtonClick);
+        panelEmoji.OnInit();
+    }
     public void OnBackButton()
     {
         Sound.Play(Sound.SoundData.ButtonClick);
