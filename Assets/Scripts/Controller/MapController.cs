@@ -16,7 +16,7 @@ public class MapController : SingletonMonoBehavior<MapController>
     [SerializeField] SpriteRenderer bgMap;
     [SerializeField] Sprite[] allBGs;
     [SerializeField] GameObject deathMatchBox;
-
+    int mapId;
     private int CurrentMapId
     {
         get => PlayerPrefs.GetInt("CurrentMapId", 0);
@@ -29,7 +29,27 @@ public class MapController : SingletonMonoBehavior<MapController>
         //if (!BGColor.isInit) BGColor.Init();
 
         bgMap.transform.localScale = Vector3.one * 2f;
-        bgMap.sprite = allBGs[Random.Range(0, allBGs.Length)];
+        mapId = GetRandomMapId();
+        if(mapId < 10)
+        {
+            bgMap.sprite = allBGs[0];
+        }else if(mapId >= 10 && mapId < 20)
+        {
+            bgMap.sprite = allBGs[1];
+        }
+        else if (mapId >= 20 && mapId < 30)
+        {
+            bgMap.sprite = allBGs[2];
+        }
+        else if (mapId >= 30 && mapId < 40)
+        {
+            bgMap.sprite = allBGs[3];
+        }
+        else if (mapId >= 40 && mapId < 50)
+        {
+            bgMap.sprite = allBGs[4];
+        }
+        //bgMap.sprite = allBGs[Random.Range(0, allBGs.Length)];
         bgMap.color = new Color32(180, 180, 180, 255);
 
         if (GameFollowData.Instance.playingGameMode.Equals(GameMode.SandBox))
@@ -59,7 +79,7 @@ public class MapController : SingletonMonoBehavior<MapController>
         else
         {
             //currentMap = Instantiate(mapPrefabList[16], Vector3.zero, Quaternion.identity);
-            currentMap = Instantiate(mapPrefabList[GetRandomMapId()], Vector3.zero, Quaternion.identity);
+            currentMap = Instantiate(mapPrefabList[mapId], Vector3.zero, Quaternion.identity);
         }
         if (showImmediately) currentMap.ShowMap();
         pointsToSpawn = currentMap.GetComponentsInChildren<SpawnPoint>();

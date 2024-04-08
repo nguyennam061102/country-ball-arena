@@ -110,6 +110,7 @@ public class GameController : SingletonMonoBehavior<GameController>
         if (GameData.TutorialCompleted == 10)
         {
             MovementController.backbutton.SetActive(true);
+            MovementController.emojibutton.SetActive(true);
             switch (GameFollowData.Instance.playingGameMode)
             {
                 case GameMode.Survival:
@@ -143,6 +144,7 @@ public class GameController : SingletonMonoBehavior<GameController>
         else
         {
             MovementController.backbutton.SetActive(false);
+            MovementController.emojibutton.SetActive(false);
             MovementController.groupSurvival.SetActive(false);
             MovementController.groupDM.SetActive(false);
             MovementController.groupSandbox.SetActive(false);

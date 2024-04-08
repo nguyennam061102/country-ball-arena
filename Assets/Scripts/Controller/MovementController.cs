@@ -15,7 +15,7 @@ public class MovementController : MonoBehaviour
     public Text loadBlockSeconds;
     public Text loadBlockSeconds2;
     Block block;
-    public GameObject groupSurvival, groupDM, groupSandbox, backbutton;
+    public GameObject groupSurvival, groupDM, groupSandbox, backbutton, emojibutton;
 
     private void Start()
     {

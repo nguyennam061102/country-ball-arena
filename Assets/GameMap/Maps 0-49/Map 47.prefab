@@ -1944,46 +1944,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 427967021713339934}
     m_Modifications:
-    - target: {fileID: 2486449331098255939, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2486449331098255939, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2486449331098255939, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2486449331098255939, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 2563223405653263391, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5256269
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563223405653263391, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.47298664
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563223405653263391, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.5256269
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563223405653263391, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.47298664
-      objectReference: {fileID: 0}
     - target: {fileID: 3410207617547728411, guid: ab91329f5858e064283360e218d641b2,
         type: 3}
       propertyPath: force
@@ -2049,8 +2009,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: saw
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1231321155290727435, guid: ab91329f5858e064283360e218d641b2, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab91329f5858e064283360e218d641b2, type: 3}
 --- !u!4 &4460402085777258215 stripped
 Transform:
@@ -2065,46 +2024,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 427967021713339934}
     m_Modifications:
-    - target: {fileID: 2486449331098255939, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2486449331098255939, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2486449331098255939, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2486449331098255939, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 2563223405653263391, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5256269
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563223405653263391, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.47298664
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563223405653263391, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.5256269
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563223405653263391, guid: ab91329f5858e064283360e218d641b2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.47298664
-      objectReference: {fileID: 0}
     - target: {fileID: 3410207617547728411, guid: ab91329f5858e064283360e218d641b2,
         type: 3}
       propertyPath: force
@@ -2170,8 +2089,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: saw (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1231321155290727435, guid: ab91329f5858e064283360e218d641b2, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab91329f5858e064283360e218d641b2, type: 3}
 --- !u!4 &5773135928348704987 stripped
 Transform:
