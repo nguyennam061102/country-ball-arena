@@ -21,7 +21,8 @@ public class PanelInventory : MonoBehaviour
     [SerializeField] private int itemId;
     [SerializeField] private int itemLevel;
     [SerializeField] private float itemPrice;
-    [SerializeField] private UI2DSprite icon;
+    [SerializeField] private UI2DSprite icon, eye, curentEye;
+    [SerializeField] private GameObject changeEye, desc;
     [SerializeField] private UILabel itemName, itemLevelText, damageText, magSizeText, lbItemDesc;
     private ShopItemInfo sItemInfo;
     private InventoryItem inventoryItem;
@@ -34,6 +35,7 @@ public class PanelInventory : MonoBehaviour
     [SerializeField] TweenAlpha twAlpha;
 
     [SerializeField] PanelCharacter pchar;
+    public int count;
 
     private void OnEnable()
     {
@@ -41,6 +43,7 @@ public class PanelInventory : MonoBehaviour
         twScale.PlayForward();
         twAlpha.ResetToBeginning();
         twAlpha.PlayForward();
+        
     }
 
     public void SetItemInfo(ShopItemInfo itemInfo, InventoryItem inventoryItem)
@@ -59,6 +62,9 @@ public class PanelInventory : MonoBehaviour
         switch (characterInfo)
         {
             case CharacterInfo.MainHand:
+                this.changeEye.SetActive(false);
+                this.desc.SetActive(true);
+                this.eye.gameObject.SetActive(false);
                 if (itemInfo.damage > 0)
                 {
                     int upDMG = (int)(itemInfo.damage * (Stats.GunLevelDamageMultiplier(itemInfo.ItemLevel + 1) - Stats.GunLevelDamageMultiplier(itemInfo.ItemLevel)));
@@ -70,6 +76,9 @@ public class PanelInventory : MonoBehaviour
                 this.magSizeText.text = "[514685]ROF: " + itemInfo.rof + " sec";
                 break;
             case CharacterInfo.OffHand:
+                this.changeEye.SetActive(false);
+                this.desc.SetActive(true);
+                this.eye.gameObject.SetActive(false);
                 this.damageText.text = "[514685]" + itemInfo.function;
                 this.magSizeText.text = $"[514685]CD: {itemInfo.coolDown} sec";
                 break;
@@ -77,6 +86,16 @@ public class PanelInventory : MonoBehaviour
                 int upHP = (int)(itemInfo.health * (Stats.SkinLevelHPMultiplier(itemInfo.ItemLevel + 1) - Stats.SkinLevelHPMultiplier(itemInfo.ItemLevel)));
                 this.damageText.text = $"[514685]HP: {(int)(itemInfo.health * Stats.SkinLevelHPMultiplier(itemInfo.ItemLevel))}[-][12FF00](+{upHP})[-]";
                 this.magSizeText.text = $"[514685]SPD: {itemInfo.moveSpeed}";
+                this.icon.width = Mathf.RoundToInt(this.icon.width * 2f);
+                this.icon.height = Mathf.RoundToInt(this.icon.height * 2f);
+                this.changeEye.SetActive(true);
+                this.desc.SetActive(false);
+                this.eye.gameObject.SetActive(true);
+                this.eye.sprite2D = itemInfo.connectedSkin.eye;
+                this.eye.MakePixelPerfect();
+                this.curentEye.sprite2D = itemInfo.connectedSkin.eye;
+                this.curentEye.MakePixelPerfect();
+                count = GameFollowData.Instance.eyes.IndexOf(itemInfo.connectedSkin.eye);
                 break;
         }
 
@@ -113,7 +132,68 @@ public class PanelInventory : MonoBehaviour
                 throw new ArgumentOutOfRangeException();
         }
     }
-
+    public void OnChageEyeLeft()
+    {
+        if (this.count + 1 < GameFollowData.Instance.eyes.Count)
+        {
+            this.count += 1;
+            GameFollowData.Instance.skinList[itemId].connectedSkin.eye = GameFollowData.Instance.eyes[count];
+            this.eye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.eye.MakePixelPerfect();
+            this.curentEye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.curentEye.MakePixelPerfect();
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.sprite2D = GameFollowData.Instance.eyes[count];
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.MakePixelPerfect();
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.width = Mathf.RoundToInt(UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.width * 0.5f);
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.height = Mathf.RoundToInt(UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.height * 0.5f);
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().SetCharacterAnim();
+        }
+        else
+        {
+            this.count = 0;
+            GameFollowData.Instance.skinList[itemId].connectedSkin.eye = GameFollowData.Instance.eyes[count];
+            this.eye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.eye.MakePixelPerfect();
+            this.curentEye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.curentEye.MakePixelPerfect();
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.sprite2D = GameFollowData.Instance.eyes[count];
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.MakePixelPerfect();
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.width = Mathf.RoundToInt(UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.width * 0.5f);
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.height = Mathf.RoundToInt(UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.height * 0.5f);
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().SetCharacterAnim();
+        }
+    }
+    public void OnChageEyeRight()
+    {
+        if (this.count > 0)
+        {
+            this.count -= 1;
+            GameFollowData.Instance.skinList[itemId].connectedSkin.eye = GameFollowData.Instance.eyes[count];
+            this.eye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.eye.MakePixelPerfect();
+            this.curentEye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.curentEye.MakePixelPerfect();
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.sprite2D = GameFollowData.Instance.eyes[count];
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.MakePixelPerfect();
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.width = Mathf.RoundToInt(UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.width * 0.5f);
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.height = Mathf.RoundToInt(UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.height * 0.5f);
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().SetCharacterAnim();
+        }
+        else
+        {
+            this.count = GameFollowData.Instance.eyes.Count - 1;
+            GameFollowData.Instance.skinList[itemId].connectedSkin.eye = GameFollowData.Instance.eyes[count];
+            this.eye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.eye.MakePixelPerfect();
+            this.curentEye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.curentEye.MakePixelPerfect();
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.sprite2D = GameFollowData.Instance.eyes[count];
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.MakePixelPerfect();
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.width = Mathf.RoundToInt(UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.width * 0.5f);
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.height = Mathf.RoundToInt(UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.height * 0.5f);
+            UiController.Instance.currentPanel.GetComponent<PanelCharacter>().SetCharacterAnim();
+        }
+    }
     public void OnEquipButton()
     {
         Sound.Play(Sound.SoundData.ButtonClick);

@@ -30,6 +30,7 @@ public class PanelCharacter : MonoBehaviour
     [Header("CHARACTER")]
     [SerializeField] private SkeletonAnimation characterAnim;
     [SerializeField] private SpriteRenderer offHand;
+    [SerializeField] private SpriteRenderer eye;
     [SerializeField] private Sprite[] offHandList;
     [SerializeField] GameObject[] mainHand;
     [SerializeField] private GameObject mainHandWaring, offHandWarning, skinWarning;
@@ -86,20 +87,20 @@ public class PanelCharacter : MonoBehaviour
         else if (type.Equals(TitleType.LoadOut)) UI.panelCharacterTitle = 1;
     }
 
-    void SetCharacterAnim()
+    public void SetCharacterAnim()
     {
-        characterAnim.skeleton.SetSkin(GameData.CurrentSkinId.ToString());
+        characterAnim.skeleton.SetSkin(GameFollowData.Instance.skinList[ GameData.CurrentSkinId].connectedSkin.skinName);
         characterAnim.Skeleton.SetSlotsToSetupPose();
         characterAnim.AnimationState.Apply(characterAnim.Skeleton);
         var tmp = Random.Range(0, 2);
         switch (tmp)
         {
             case 0:
-                characterAnim.state.SetAnimation(0, "idle 1", true);
+                characterAnim.state.SetAnimation(0, "0. Idle", true);
                 characterAnim.timeScale = Random.Range(0.8f, 1.2f);
                 break;
             case 1:
-                characterAnim.state.SetAnimation(0, "idle 2", true);
+                characterAnim.state.SetAnimation(0, "0. Idle", true);
                 characterAnim.timeScale = Random.Range(0.8f, 1.2f);
                 break;
         }
@@ -109,11 +110,11 @@ public class PanelCharacter : MonoBehaviour
         //mainHand.transform.SetEulerAnglesZAxis(45f);
         foreach (GameObject go in mainHand) go.SetActive(false);
         mainHand[GameData.CurrentMainHandId].gameObject.SetActive(true);
-
+        eye.sprite = GameFollowData.Instance.skinList[GameData.CurrentSkinId].connectedSkin.eye;
         offHand.sprite = offHandList[GameData.CurrentOffHandId];
-        offHand.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
-        offHand.transform.SetEulerAnglesZAxis(180);
-        offHand.transform.localRotation = Quaternion.Euler(0, 0, 180f);
+        //offHand.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+        offHand.transform.SetEulerAnglesZAxis(20);
+        offHand.transform.localRotation = Quaternion.Euler(0, 0, 20f);
     }
 
     private void GetLevelInfo()
@@ -160,7 +161,10 @@ public class PanelCharacter : MonoBehaviour
         if (itemList != null) foreach (InventoryItem ii in itemList) Destroy(ii.gameObject);
         itemList = new List<InventoryItem>();
     }
-
+    public void OnSubmitName()
+    {
+        GameData.PlayerName = inputName.label.text;
+    }
     public void OnMainHandButton()
     {
         ClearItemListAndCreateNew();
@@ -247,6 +251,8 @@ public class PanelCharacter : MonoBehaviour
 
     private float TargetExp => (float)Math.Round(60 * Mathf.Pow(GameData.PlayerLevel + 1, 2.8f) - 60);
 
+    public List<InventoryItem> ItemList { get => itemList; set => itemList = value; }
+
     public void OnPlayButton()
     {
         GameFollowData.Instance.playingGameMode = GameMode.Survival;
@@ -255,6 +261,7 @@ public class PanelCharacter : MonoBehaviour
     }
 
     public PanelInventory panelInventoryData;
+    public UIInput inputName;
 }
 
 public enum TitleType

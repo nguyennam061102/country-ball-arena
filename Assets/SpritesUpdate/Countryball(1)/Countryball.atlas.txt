@@ -1,0 +1,146 @@
+
+Countryball.png
+size: 631,997
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NV10_korea
+  rotate: true
+  xy: 231, 637
+  size: 176, 204
+  orig: 176, 204
+  offset: 0, 0
+  index: -1
+NV11_arapxeut
+  rotate: false
+  xy: 302, 14
+  size: 144, 128
+  orig: 145, 128
+  offset: 1, 0
+  index: -1
+NV11_mexican
+  rotate: true
+  xy: 213, 461
+  size: 174, 176
+  orig: 174, 176
+  offset: 0, 0
+  index: -1
+NV12_phap
+  rotate: false
+  xy: 2, 333
+  size: 168, 158
+  orig: 168, 158
+  offset: 0, 0
+  index: -1
+NV13_3lan
+  rotate: true
+  xy: 437, 601
+  size: 204, 158
+  orig: 205, 158
+  offset: 0, 0
+  index: -1
+NV14_nga
+  rotate: false
+  xy: 312, 144
+  size: 153, 153
+  orig: 154, 154
+  offset: 1, 0
+  index: -1
+NV15_thailand
+  rotate: true
+  xy: 340, 299
+  size: 137, 174
+  orig: 137, 174
+  offset: 0, 0
+  index: -1
+NV16_indo
+  rotate: true
+  xy: 172, 311
+  size: 148, 166
+  orig: 148, 166
+  offset: 0, 0
+  index: -1
+NV17_malai
+  rotate: false
+  xy: 487, 807
+  size: 142, 188
+  orig: 143, 188
+  offset: 1, 0
+  index: -1
+NV18_duc
+  rotate: true
+  xy: 2, 493
+  size: 141, 189
+  orig: 141, 189
+  offset: 0, 0
+  index: -1
+NV19_australia
+  rotate: true
+  xy: 467, 155
+  size: 142, 148
+  orig: 142, 149
+  offset: 0, 0
+  index: -1
+NV20_singapore
+  rotate: false
+  xy: 2, 790
+  size: 227, 205
+  orig: 227, 205
+  offset: 0, 0
+  index: -1
+NV2_China
+  rotate: false
+  xy: 391, 438
+  size: 163, 161
+  orig: 163, 162
+  offset: 0, 1
+  index: -1
+NV3_phat_xit_nhat
+  rotate: false
+  xy: 231, 815
+  size: 254, 180
+  orig: 254, 181
+  offset: 0, 0
+  index: -1
+NV5_VN
+  rotate: true
+  xy: 2, 2
+  size: 158, 139
+  orig: 158, 139
+  offset: 0, 0
+  index: -1
+NV6_LHQ
+  rotate: true
+  xy: 2, 162
+  size: 169, 145
+  orig: 171, 146
+  offset: 0, 0
+  index: -1
+NV7_canada
+  rotate: false
+  xy: 149, 10
+  size: 151, 151
+  orig: 153, 151
+  offset: 0, 0
+  index: -1
+NV8_anh_quoc
+  rotate: true
+  xy: 2, 636
+  size: 152, 209
+  orig: 156, 209
+  offset: 4, 0
+  index: -1
+NV9_Brazil
+  rotate: false
+  xy: 467, 22
+  size: 145, 131
+  orig: 145, 131
+  offset: 0, 0
+  index: -1
+Nv4_USA
+  rotate: false
+  xy: 149, 163
+  size: 161, 146
+  orig: 161, 147
+  offset: 0, 0
+  index: -1

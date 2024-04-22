@@ -17,7 +17,7 @@ public class PlayerItem : MonoBehaviour
     {
         id = shopItemInfo.itemId;
         image.sprite2D = shopItemInfo.itemIcon;
-        eye.sprite2D = shopItemInfo.eye;
+        eye.sprite2D = shopItemInfo.connectedSkin.eye;
         eye.MakePixelPerfect();
     }
     public void SetEye(Sprite eyeSprite)

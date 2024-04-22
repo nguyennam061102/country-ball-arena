@@ -30,7 +30,7 @@ public class PlayerAssigner : MonoBehaviour
             if (isAi)
             {
                 component.nameAI = FakeOnlController.Instance.NameRandom();
-                component.GetComponent<BaseCharacter>().SetAI();
+                component.SetAI();
                 component.holding.GetGunAndSpawn();
                 if (GameFollowData.Instance.playingGameMode.Equals(GameMode.Survival) || GameFollowData.Instance.playingGameMode.Equals(GameMode.SandBox))
                 {
@@ -55,6 +55,7 @@ public class PlayerAssigner : MonoBehaviour
                 mainPlayer = component;
                 component.holding.holdablePrefab = component.weaponList[GameData.CurrentMainHandId];
                 component.holding.SpawnGun();
+                 
             }           
             component.skinHandler.SetCharacterSkin();
             component.playerVel.simulated = false;

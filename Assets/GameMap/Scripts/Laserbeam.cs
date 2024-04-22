@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Sirenix.OdinInspector;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,7 +26,7 @@ public class Laserbeam : MonoBehaviour
         laserbeam.gameObject.SetActive(false);
         endLaser.gameObject.SetActive(false);
     }
-
+    [Button]
     public void TurnOn()
     {
         operating = true;

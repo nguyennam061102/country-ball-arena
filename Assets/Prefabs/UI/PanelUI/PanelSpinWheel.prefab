@@ -594,7 +594,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: e2b078da59dea5843af075431cf3a091, type: 3}
+  mSprite: {fileID: 21300000, guid: 79e5fafdf5ffcb14392e4087d16e0391, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
@@ -1212,7 +1212,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340113699667799565}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1259,7 +1259,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.0375
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 902736ba372512a4399839188780800d, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: 273681166abaa424e815cc255d42d9e4, type: 3}
   mFont: {fileID: 0}
   mText: Continue
   mFontSize: 45
@@ -6573,7 +6573,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3009
+  startingRenderQueue: 3007
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -7214,7 +7214,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3013
+  startingRenderQueue: 3010
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -10187,7 +10187,7 @@ MonoBehaviour:
     relative: 1
     absolute: 0
   updateAnchors: 1
-  mColor: {r: 0.30588236, g: 0.2627451, b: 0.5254902, a: 1}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 1200
   mHeight: 70
@@ -10198,7 +10198,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 17.142857
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 902736ba372512a4399839188780800d, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: 273681166abaa424e815cc255d42d9e4, type: 3}
   mFont: {fileID: 0}
   mText: Skygo Game
   mFontSize: 70
@@ -10206,10 +10206,10 @@ MonoBehaviour:
   mAlignment: 0
   mEncoding: 1
   mMaxLineCount: 0
-  mEffectStyle: 2
-  mEffectColor: {r: 1, g: 1, b: 1, a: 1}
+  mEffectStyle: 1
+  mEffectColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
   mSymbols: 1
-  mEffectDistance: {x: 1.1, y: 1.1}
+  mEffectDistance: {x: 1, y: 3}
   mOverflow: 0
   mApplyGradient: 0
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
@@ -10569,7 +10569,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3008
+  startingRenderQueue: 3006
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -10951,7 +10951,7 @@ MonoBehaviour:
   mText: 'Spin
 
     Again'
-  mFontSize: 50
+  mFontSize: 45
   mFontStyle: 0
   mAlignment: 0
   mEncoding: 1
@@ -13578,7 +13578,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3010
+  startingRenderQueue: 3007
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -13744,7 +13744,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3009
+  startingRenderQueue: 3007
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -13940,7 +13940,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8436521532011707028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 9.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14341,7 +14341,7 @@ Transform:
   m_GameObject: {fileID: 9053897547471219932}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -60, z: 0}
-  m_LocalScale: {x: 150, y: 150, z: 150}
+  m_LocalScale: {x: 120, y: 120, z: 120}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7313021098809492079}
@@ -14389,7 +14389,7 @@ SpriteMask:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8014639072655234a8d950ad34413af1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d341119c41f6fb4ba902f4db54bebaf, type: 3}
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
@@ -14555,10 +14555,10 @@ MonoBehaviour:
     prizeIcon: {fileID: 21300000, guid: 549ae4a7b109aef439c0571a27210a46, type: 3}
   - prizeSeed: 1
     prizeAmount: 1
-    prizeIcon: {fileID: 21300000, guid: d5df5d803e36eab40b8a6a0f730e3963, type: 3}
+    prizeIcon: {fileID: 21300000, guid: 9361082f8b8832347b918955814a2b1a, type: 3}
   - prizeSeed: 1
     prizeAmount: 1
-    prizeIcon: {fileID: 21300000, guid: 065613d928c67f441bd6e447f36ec5f6, type: 3}
+    prizeIcon: {fileID: 21300000, guid: 981d5a1726ca9f34c9cb553e22961151, type: 3}
   watchToSpinButton: {fileID: 67630168710798394}
   freeSpinButton: {fileID: 857369450198003900}
   nextTimeButton: {fileID: 8524977604482671278}

@@ -92,8 +92,8 @@ public class InputMovement : MonoBehaviour
         }
 
         //attack always down
-        if (GameController.Instance.gamePaused || Movement.stunnedInput) isAttackDown = false;
-        else isAttackDown = true;
+        //if (GameController.Instance.gamePaused || Movement.stunnedInput) isAttackDown = false;
+        //else isAttackDown = true;
 
         if (isAttackDown)
         {

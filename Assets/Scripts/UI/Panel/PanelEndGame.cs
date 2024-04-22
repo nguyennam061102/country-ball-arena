@@ -203,7 +203,7 @@ public class PanelEndGame : MonoBehaviour
             if (WeaponEndGameId == -1 || tmpList.Count < WeaponEndGameId + 1) WeaponEndGameId = Random.Range(0, tmpList.Count);
 
             weaponIcon.sprite2D = tmpList[WeaponEndGameId].itemIcon;
-            weaponIcon.MakePixelPerfect();
+            //weaponIcon.MakePixelPerfect();
             weaponFill.sprite2D = tmpList[WeaponEndGameId].itemIcon;
             weaponFill.MakePixelPerfect();
 
@@ -222,9 +222,9 @@ public class PanelEndGame : MonoBehaviour
             if (WeaponEndGameId == -1 || tmpList.Count < WeaponEndGameId + 1) WeaponEndGameId = Random.Range(0, tmpList.Count);
 
             weaponIcon.sprite2D = tmpList[WeaponEndGameId].itemIcon;
-            weaponIcon.MakePixelPerfect();
+            //weaponIcon.MakePixelPerfect();
             weaponFill.sprite2D = tmpList[WeaponEndGameId].itemIcon;
-            weaponFill.MakePixelPerfect();
+            //weaponFill.MakePixelPerfect();
 
             WeaponFillAmount += (int)GetGold() * 0.8f / tmpList[WeaponEndGameId].price;
             weaponFill.fillAmount = WeaponFillAmount;

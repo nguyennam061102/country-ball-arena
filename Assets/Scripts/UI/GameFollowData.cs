@@ -32,10 +32,11 @@ public class GameFollowData : MonoBehaviour
     [Button]
     void ExecuteItemId()
     {
+
         //for (int i = 0; i < mainHandList.Length; i++)
         //{
-        //    mainHandList[i].itemId = i;
-        //    EditorUtility.SetDirty(mainHandList[i].itemIcon);
+        //    vukhi[i].sprite = mainHandList[i].itemIcon;
+        //    vukhi[i].name = mainHandList[i].itemIcon.name;
         //}
 
         //for (int i = 0; i < offHandList.Length; i++)
@@ -156,7 +157,7 @@ public class ShopItemInfo
     [FoldoutGroup("Item")] public ShopItemType shopItemType;
     [FoldoutGroup("Item")] public CurrencyType currencyType;
     [FoldoutGroup("Item")] public Sprite itemIcon;
-    [FoldoutGroup("Item")] public Sprite eye;
+    
     [FoldoutGroup("Item")] public float price, basePriceToUpgrade, value;
     [FoldoutGroup("Item")] public string sku;
     [FoldoutGroup("Item")] public bool currency;

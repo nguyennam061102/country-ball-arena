@@ -56,7 +56,7 @@ public class PlayerAI : MonoBehaviour
 
     private void Update()
     {
-        //return;
+        return;
         if (GameFollowData.Instance.playingGameMode.Equals(GameMode.SandBox)) return;
         if (data.dead) return;
         if (!enableMovement) return;

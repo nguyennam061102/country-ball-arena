@@ -74,7 +74,7 @@ public class ShopItem : MonoBehaviour
     private void Start()
     {
         if (!itemInfo.useAnim) return;
-        anim.skeleton.SetSkin(itemId.ToString());
+        anim.skeleton.SetSkin(GameFollowData.Instance.skinList[itemId].connectedSkin.skinName);
         anim.skeleton.SetSlotsToSetupPose();
         anim.AnimationState.Apply(anim.Skeleton);
 
@@ -82,15 +82,15 @@ public class ShopItem : MonoBehaviour
         switch (tmp)
         {
             case 0:
-                anim.state.SetAnimation(0, "idle 1", true);
+                anim.state.SetAnimation(0, "0. Idle", true);
                 anim.timeScale = Random.Range(0.8f, 1.2f);
                 break;
             case 1:
-                anim.state.SetAnimation(0, "idle 2", true);
+                anim.state.SetAnimation(0, "0. Idle", true);
                 anim.timeScale = Random.Range(0.8f, 1.2f);
                 break;
             case 2:
-                anim.state.SetAnimation(0, "idle 3", true);
+                anim.state.SetAnimation(0, "0. Idle", true);
                 anim.timeScale = Random.Range(0.8f, 1.2f);
                 break;
         }

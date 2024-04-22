@@ -21,8 +21,11 @@ public class MovementController : MonoBehaviour
     {
         blockImage.sprite = blockList[GameData.CurrentOffHandId];
         blockImage.SetNativeSize();
+        blockImage.rectTransform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
         blockImage2.sprite = blockList[GameData.CurrentOffHandId];
         blockImage2.SetNativeSize();
+        blockImage2.rectTransform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
+
     }
 
     public void ShowIngameUI(bool flag)

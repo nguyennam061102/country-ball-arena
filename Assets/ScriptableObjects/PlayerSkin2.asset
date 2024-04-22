@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skinId: 2
   skinSprite: {fileID: 21300000, guid: 997a2a3b36ffc6f489d0a064d442c6cc, type: 3}
-  eye: {fileID: 21300000, guid: 3c918d9f9e79bd5448e8bd88c7d29e7b, type: 3}
+  eye: {fileID: 21300000, guid: f1797b26e3477d841babfdfeb6b61660, type: 3}
   defaultSkin: 0
   useColor: 1
   skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: c4f1cdebc9b40d4409c9a2dfcc7ff0f3, type: 2}
-  skinName: America
+  skinName: United States
   health: 120
   speed: 100

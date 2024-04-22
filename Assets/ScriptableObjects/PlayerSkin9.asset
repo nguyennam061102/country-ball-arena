@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skinId: 9
   skinSprite: {fileID: 21300000, guid: ebe636805f523cb43bc3984e79371d94, type: 3}
+  eye: {fileID: 21300000, guid: f1797b26e3477d841babfdfeb6b61660, type: 3}
   defaultSkin: 0
   useColor: 1
   skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 11400000, guid: b2adce5a80574f24c909147d6745fb0a, type: 2}
-  skinName: Saudi Arabic
+  skinName: Arab Saudi
   health: 200
   speed: 100

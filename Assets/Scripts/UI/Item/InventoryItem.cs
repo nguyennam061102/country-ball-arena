@@ -14,6 +14,9 @@ public class InventoryItem : MonoBehaviour
     [SerializeField] UILabel lbName, lbLevel;
     public GameObject selectItem;
 
+    public UI2DSprite Icon { get => icon; set => icon = value; }
+    public UI2DSprite Eye { get => eye; set => eye = value; }
+
     public void SetItemInfo(ShopItemInfo itemInfo, PanelCharacter panel, bool canScale)
     {
         panelChar = panel;
@@ -31,12 +34,14 @@ public class InventoryItem : MonoBehaviour
         { 
             case ShopItemType.MainHand:
                 selectItem.SetActive(itemId == GameData.CurrentMainHandId);
+                eye.gameObject.SetActive(false);
                 break;
             case ShopItemType.OffHand:
                 selectItem.SetActive(itemId == GameData.CurrentOffHandId);
+                eye.gameObject.SetActive(false);
                 break;
             case ShopItemType.Skin:
-                eye.sprite2D = itemInfo.eye;
+                eye.sprite2D = itemInfo.connectedSkin.eye;
                 eye.gameObject.SetActive(true);
                 eye.MakePixelPerfect();
                 eye.width = Mathf.RoundToInt( eye.width * 0.5f);

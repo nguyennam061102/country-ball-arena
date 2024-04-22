@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skinId: 13
   skinSprite: {fileID: 21300000, guid: 4539e60bf7096ca4bba929818fe3210b, type: 3}
+  eye: {fileID: 21300000, guid: f1797b26e3477d841babfdfeb6b61660, type: 3}
   defaultSkin: 0
   useColor: 1
   skinColor: {r: 1, g: 1, b: 1, a: 255}

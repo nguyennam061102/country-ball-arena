@@ -16,9 +16,11 @@ public class PanelRename : MonoBehaviour
     [SerializeField] private int playerEye;
     [SerializeField] PlayerItem playerItem;
     [SerializeField] UIScrollView scroll;
+    [SerializeField] UI2DSprite eye;
     public UIInput InputName;
     public GameObject ButtonBack;
     int index;
+    int count;
     // Start is called before the first frame update
     void Start()
     {
@@ -122,26 +124,40 @@ public class PanelRename : MonoBehaviour
     }
     public void OnChageEyeLeft()
     {
-        if ( GameData.PlayerEye + 1 < GameFollowData.Instance.eyes.Count)
+        if (this.count + 1 < GameFollowData.Instance.eyes.Count)
         {
-            playerMain.SetEye(GameFollowData.Instance.eyes[GameData.PlayerEye + 1]);
-            GameData.PlayerEye += 1;
+            this.count += 1;
+            GameFollowData.Instance.skinList[playerMain.id].connectedSkin.eye = GameFollowData.Instance.eyes[count];
+            this.eye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.eye.MakePixelPerfect();
+            playerMain.SetEye(GameFollowData.Instance.eyes[count]);
         }
         else
         {
-            GameData.PlayerEye = 0;
+            this.count = 0;
+            GameFollowData.Instance.skinList[playerMain.id].connectedSkin.eye = GameFollowData.Instance.eyes[count];
+            this.eye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.eye.MakePixelPerfect();
+            playerMain.SetEye(GameFollowData.Instance.eyes[count]);
         }
     }
     public void OnChageEyeRight()
     {
-        if (GameData.PlayerEye - 1 > 0)
+        if (this.count > 0)
         {
-            playerMain.SetEye(GameFollowData.Instance.eyes[GameData.PlayerEye - 1]);
-            GameData.PlayerEye -= 1;
+            this.count -= 1;
+            GameFollowData.Instance.skinList[playerMain.id].connectedSkin.eye = GameFollowData.Instance.eyes[count];
+            this.eye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.eye.MakePixelPerfect();
+            playerMain.SetEye(GameFollowData.Instance.eyes[count]);
         }
         else
         {
-            GameData.PlayerEye = GameFollowData.Instance.eyes.Count - 1;
+            this.count = GameFollowData.Instance.eyes.Count - 1;
+            GameFollowData.Instance.skinList[playerMain.id].connectedSkin.eye = GameFollowData.Instance.eyes[count];
+            this.eye.sprite2D = GameFollowData.Instance.eyes[count];
+            this.eye.MakePixelPerfect();
+            playerMain.SetEye(GameFollowData.Instance.eyes[count]);
         }
     }
     public void OnBackButton()

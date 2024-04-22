@@ -344,7 +344,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5458028424465931661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -110, y: 0, z: 0}
+  m_LocalPosition: {x: -110, y: 7.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -536,7 +536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6620759652254447943}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40, y: 0, z: 0}
+  m_LocalPosition: {x: -40, y: 7.399968, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1367,6 +1367,10 @@ MonoBehaviour:
   itemLevel: 0
   itemPrice: 0
   icon: {fileID: 7095979733841444554}
+  eye: {fileID: 0}
+  curentEye: {fileID: 0}
+  changeEye: {fileID: 0}
+  desc: {fileID: 0}
   itemName: {fileID: 7095979734045018184}
   itemLevelText: {fileID: 5007216177306621661}
   damageText: {fileID: 7769216441206159107}
@@ -1377,6 +1381,7 @@ MonoBehaviour:
   twScale: {fileID: 0}
   twAlpha: {fileID: 0}
   pchar: {fileID: 0}
+  count: 0
 --- !u!1 &7095979733763387491
 GameObject:
   m_ObjectHideFlags: 0
@@ -2568,7 +2573,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8540452257747204586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 7.399968, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

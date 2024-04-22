@@ -6181,7 +6181,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177135453473829619}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13, y: -4.66, z: 0}
+  m_LocalPosition: {x: 13, y: -4.23, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.19999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6337,7 +6337,7 @@ MonoBehaviour:
   startRaycastPoint: {fileID: 7259946889027824288}
   endLaser: {fileID: 8386652442354715248}
   maxLaserDistance: 30
-  operating: 0
+  operating: 1
 --- !u!1 &1214283867797094178
 GameObject:
   m_ObjectHideFlags: 0
@@ -9367,8 +9367,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796329765019260959}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -7.4, z: 0}
-  m_LocalScale: {x: 7, y: 4, z: 1}
+  m_LocalPosition: {x: 0, y: -6.98, z: 0}
+  m_LocalScale: {x: 2, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 290171965113306162}
@@ -9416,7 +9416,7 @@ SpriteRenderer:
   m_SortingLayerID: 1004216879
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9a3750bc892fca44695121d3ae20785e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fa625ae38e98df9429ccb0c5b1358769, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9444,14 +9444,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.45, y: 1.76}
+    oldSize: {x: 19.36, y: 2}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.45, y: 1.76}
+  m_Size: {x: 19.36, y: 2}
   m_EdgeRadius: 0
 --- !u!1 &1899868372234158059
 GameObject:
@@ -9481,7 +9481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899868372234158059}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: -4.66, z: 0}
+  m_LocalPosition: {x: 5, y: -4.23, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.19999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9637,7 +9637,7 @@ MonoBehaviour:
   startRaycastPoint: {fileID: 8771318821502850342}
   endLaser: {fileID: 7735983040214948606}
   maxLaserDistance: 30
-  operating: 0
+  operating: 1
 --- !u!1 &2358749358299417969
 GameObject:
   m_ObjectHideFlags: 0
@@ -18615,7 +18615,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3497015086170396301}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -4.66, z: 0}
+  m_LocalPosition: {x: -5, y: -4.23, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.19999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18771,7 +18771,7 @@ MonoBehaviour:
   startRaycastPoint: {fileID: 746104433496888441}
   endLaser: {fileID: 4123583017675685226}
   maxLaserDistance: 30
-  operating: 0
+  operating: 1
 --- !u!1 &4303887464376814576
 GameObject:
   m_ObjectHideFlags: 0
@@ -40110,7 +40110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7034983510643159889}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13, y: -4.66, z: 0}
+  m_LocalPosition: {x: -13, y: -4.23, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.19999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40266,7 +40266,7 @@ MonoBehaviour:
   startRaycastPoint: {fileID: 5982628970717366356}
   endLaser: {fileID: 2409431411243334152}
   maxLaserDistance: 30
-  operating: 0
+  operating: 1
 --- !u!1 &7531577396950301865
 GameObject:
   m_ObjectHideFlags: 0

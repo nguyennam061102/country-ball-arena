@@ -126,7 +126,9 @@ public class BaseCharacter : MonoBehaviour
     public Holdable[] weaponList;
 
     public int level;
-    public Image emoji;
+    public Image iconEmoji;
+    public GameObject emoji;
+    public AnimationCurve curve;
     public Gun Gun => holding.holdable.GetComponent<Gun>();
 
     //todo: LHD Modify
@@ -208,17 +210,23 @@ public class BaseCharacter : MonoBehaviour
         }
         wasWallGrabLastFrame = false;
     }
+    Tween tween;
     public void SetEmoji(int id)
     {
-        emoji.gameObject.SetActive(true);
-        emoji.sprite = FakeOnlController.Instance.Emoji[id];
-        StartCoroutine(EndEmoji());
-    }
-    IEnumerator EndEmoji()
-    {
-        yield return new WaitForSeconds(2);
-        emoji.gameObject.SetActive(false);
+        tween?.Kill();
+        iconEmoji.sprite = FakeOnlController.Instance.Emoji[id];
+        emoji.transform.localScale = Vector3.zero;
+        tween = emoji.transform.DOScale(Vector3.one, 3f).SetEase(curve).OnComplete(() =>
+        {
+            EndEmoji();
+        });
+        emoji.SetActive(true);
         
+    }
+    public void EndEmoji()
+    {
+        emoji.gameObject.SetActive(false);
+        emoji.transform.localScale = Vector3.zero;
     }
     public void TouchGround(Vector3 pos, Vector3 groundNormal, Rigidbody2D groundRig, Transform groundTransform = null)
     {
@@ -297,9 +305,15 @@ public class BaseCharacter : MonoBehaviour
         GetComponent<PlayerAI>().EnableMovement(false);
         movement.controlledElseWhere = true;
         //GetComponent<PlayerAPI>().enabled = true;
-        
+        int rd = UnityEngine.Random.Range(0, FakeOnlController.Instance.Emoji.Count);
+        StartCoroutine(SetEmojiAI(rd));
     }
-
+    IEnumerator SetEmojiAI(int id)
+    {
+        int rdTime = UnityEngine.Random.Range(20, 40);
+        yield return new WaitForSeconds(rdTime);
+        SetEmoji(id);
+    }
     public bool IsMine => !AI;
 
     public void IceStorm()

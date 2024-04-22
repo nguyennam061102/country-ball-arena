@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 using Pathfinding;
+using Sirenix.OdinInspector;
+using System.Linq;
 
 public class GameController : SingletonMonoBehavior<GameController>
 {
@@ -260,6 +262,7 @@ public class GameController : SingletonMonoBehavior<GameController>
     public void OnEmojiButton()
     {
         Sound.Play(Sound.SoundData.ButtonClick);
+        panelEmoji.gameObject.SetActive(true);
         panelEmoji.OnInit();
     }
     public void OnBackButton()
@@ -467,6 +470,7 @@ public class GameController : SingletonMonoBehavior<GameController>
         playertobecomeboss.holding.GetGunAndSpawn();
         bossNameText.text = "KILL BOSS: " + GameFollowData.Instance.skinList[bossSkinID].itemName;
         bossIcon.sprite = GameFollowData.Instance.skinList[bossSkinID].itemIcon;
+        bossIcon.SetNativeSize();
         cards[14].GetComponent<ApplyCardStats>().PickCard(2, false, PickerType.Player, false);
         cards[14].GetComponent<ApplyCardStats>().PickCard(2, false, PickerType.Player, false);
         cards[14].GetComponent<ApplyCardStats>().PickCard(2, false, PickerType.Player, false);

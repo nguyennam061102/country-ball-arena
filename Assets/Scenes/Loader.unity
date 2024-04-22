@@ -1804,65 +1804,281 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   needDontDestroy: 1
   nameOfAI:
-  - John
-  - Mary
-  - David
-  - Jennifer
-  - Michael
-  - Sarah
+  - Jack
+  - Oliver
   - James
-  - Emily
-  - Robert
-  - Jessica
-  - William
-  - Ashley
-  - Christopher
-  - Amanda
-  - Matthew
-  - Elizabeth
-  - Daniel
-  - Samantha
-  - Joseph
-  - Nicole
-  - Andrew
-  - Lauren
-  - Joshua
-  - Megan
-  - Ryan
-  - Rachel
-  - Nicholas
-  - Tiffany
-  - Tyler
-  - Michelle
-  - Brandon
-  - Stephanie
-  - Jonathan
-  - Heather
-  - Justin
-  - Melissa
-  - Zachary
-  - Amber
-  - Kevin
-  - Brittany
-  - Eric
-  - Christina
-  - Brian
-  - Kimberly
+  - Charlie
+  - Harris
+  - Lewis
+  - Leo
+  - Noah
+  - Alfie
+  - Rory
   - Alexander
-  - Courtney
+  - Max
+  - Logan
+  - Lucas
+  - Harry
+  - Theo
+  - Thomas
+  - Brodie
+  - Archie
   - Jacob
-  - Danielle
+  - Finlay
+  - Finn
+  - Daniel
+  - Joshua
+  - Oscar
+  - Arthur
+  - Hunter
+  - Ethan
+  - Mason
+  - Harrison
+  - Freddie
+  - Ollie
+  - Adam
+  - William
+  - Jaxon
+  - Aaron
+  - Cameron
+  - Liam
+  - George
+  - Jamie
+  - Callum
+  - Matthew
+  - Muhammad
+  - Caleb
+  - Nathan
+  - Tommy
+  - Carter
+  - Blake
+  - Andrew
+  - Luke
+  - Jude
+  - Angus
+  - Riley
+  - Luca
+  - Samuel
+  - Joseph
+  - David
+  - Isaac
+  - Ryan
+  - Hamish
+  - Sonny
+  - Arlo
+  - Arran
+  - Cole
+  - Robert
+  - Blair
+  - Dylan
+  - Louie
+  - Ruaridh
+  - Connor
   - Benjamin
-  - Victoria
+  - Kai
+  - Michael
+  - Jackson
+  - Leon
+  - Cooper
+  - Louis
+  - Theodore
+  - Fraser
+  - Owen
+  - Reuben
+  - John
+  - Carson
+  - Innes
+  - Elijah
+  - Murray
+  - Grayson
+  - Aiden
+  - Aidan
+  - Cody
+  - Elliot
+  - Ben
+  - Henry
+  - Sam
+  - Alex
+  - Ellis
+  - Gabriel
+  - Jax
+  - Callan
+  - Ruairidh
+  - Frankie
+  - Lachlan
+  - Roman
+  - Brody
+  - Josh
+  - Sebastian
+  - Struan
+  - Evan
+  - Kyle
+  - Myles
+  - Calum
+  - Lochlan
+  - Jayden
+  - Lyle
+  - Robbie
+  - Calvin
+  - Corey
+  - Jaxson
+  - Christopher
+  - Teddy
+  - Eli
+  - Marcus
+  - Parker
+  - Tyler
+  - Euan
+  - Hudson
+  - Joey
+  - Austin
+  - Zac
+  - Dominic
+  - Kayden
+  - Zack
+  - Harvey
+  - Rowan
+  - Hugo
+  - Edward
+  - Fergus
+  - Finley
+  - Patrick
+  - Cillian
+  - Conor
+  - Olivia
+  - Emily
+  - Isla
+  - Sophie
+  - Ella
+  - Ava
+  - Amelia
+  - Grace
+  - Freya
+  - Charlotte
+  - Jessica
+  - Lucy
+  - Ellie
+  - Sophia
+  - Aria
+  - Lily
+  - Harper
+  - Mia
+  - Rosie
+  - Millie
+  - Evie
+  - Eilidh
+  - Ruby
+  - Willow
+  - Anna
+  - Maisie
+  - Hannah
+  - Eva
+  - Chloe
+  - Mila
+  - Orla
+  - Isabella
+  - Ivy
+  - Emma
+  - Georgia
+  - Poppy
+  - Robyn
+  - Daisy
+  - Zara
+  - Gracie
+  - Holly
+  - Skye
+  - Esme
+  - Sofia
+  - Erin
+  - Hallie
+  - Molly
+  - Ayla
+  - Emilia
+  - Layla
+  - Katie
+  - Sienna
+  - Niamh
+  - Alice
+  - Amber
+  - Bonnie
+  - Maya
+  - Zoe
+  - Ada
+  - Hollie
+  - Bella
+  - Luna
+  - Thea
+  - Rose
+  - Abigail
+  - Summer
+  - Callie
+  - Hope
+  - Lexi
+  - Iona
+  - Elsie
+  - Leah
+  - Scarlett
+  - Julia
+  - Violet
+  - Myla
+  - Harley
+  - Eve
+  - Imogen
+  - Elizabeth
+  - Cora
+  - Florence
+  - Georgie
+  - Lilly
+  - Matilda
+  - Mirren
+  - Phoebe
+  - Rowan
+  - Lola
+  - Aurora
+  - Evelyn
+  - Brooke
+  - Clara
+  - Lucie
+  - Sadie
+  - Cara
+  - Darcy
+  - Nova
+  - Penelope
+  - Abbie
+  - Aila
+  - Ailsa
+  - Aoife
+  - Lottie
+  - Lyla
+  - Maria
+  - Alba
+  - Arya
+  - Eden
+  - Lucia
+  - Penny
+  - Remi
+  - Flora
+  - Heidi
+  - Mollie
+  - Sarah
   nameInGame: 
   emoji:
-  - {fileID: 21300000, guid: b28f1f0117bd7b04caa83b2d6b0d0a8c, type: 3}
-  - {fileID: 21300000, guid: f17f799d2a92ea946ac42c1f23b191b5, type: 3}
-  - {fileID: 21300000, guid: 3c918d9f9e79bd5448e8bd88c7d29e7b, type: 3}
-  - {fileID: 21300000, guid: 263e38f8acc56984c9de38dd19b784ea, type: 3}
-  - {fileID: 21300000, guid: ba40526bc6232a6448c926260b0a4d87, type: 3}
-  - {fileID: 21300000, guid: cf69a4bc6e4ee0a489c517efd8cdaff8, type: 3}
-  - {fileID: 21300000, guid: 6ab9fb07343a85b4386a88dc174726aa, type: 3}
+  - {fileID: 21300000, guid: cb85818ee30e3e946a25cc0e91f267fb, type: 3}
+  - {fileID: 21300000, guid: 39ec43cf3f0572445b5f141fc1b44848, type: 3}
+  - {fileID: 21300000, guid: fb9fa0a9b71e55441b092acb0486d225, type: 3}
+  - {fileID: 21300000, guid: 0f618e55e58faf5479200b0991e2bead, type: 3}
+  - {fileID: 21300000, guid: 1d8e33d36acaf1442aada3129ff0255c, type: 3}
+  - {fileID: 21300000, guid: 1a52290a58be6ca4ca68ef2df2a2e252, type: 3}
+  - {fileID: 21300000, guid: 77babe0029e62ba4f90b6e7c8d7d6268, type: 3}
+  - {fileID: 21300000, guid: b5786e0ea35c90042aab61183b6f0c1c, type: 3}
+  - {fileID: 21300000, guid: ee419ffb9f1e64c4fbe7138cb7b037ea, type: 3}
+  - {fileID: 21300000, guid: ccd33d523ef222e409e7430037fa055b, type: 3}
+  - {fileID: 21300000, guid: e0368f5baab528e49b8ee6bc9e45fc93, type: 3}
+  - {fileID: 21300000, guid: ab7ed2193e136c740b8aa270735ed042, type: 3}
+  - {fileID: 21300000, guid: 12b6e69f6ce30f848912b7a9b98b7043, type: 3}
+  - {fileID: 21300000, guid: 0176692286772194c81aa36ee8af0234, type: 3}
+  - {fileID: 21300000, guid: ce33e999ea8c23b49b7278d003245d03, type: 3}
+  - {fileID: 21300000, guid: 56f84194a30e9e44c8c4e66bf0ff6edd, type: 3}
 --- !u!4 &734534313
 Transform:
   m_ObjectHideFlags: 0
@@ -1871,7 +2087,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734534311}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1399.4213, y: 649.00244, z: -7.110031}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4239,7 +4455,6 @@ MonoBehaviour:
     shopItemType: 2
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: e61b0f35f22ca2f4bb0fec2a8d58cf88, type: 3}
-    eye: {fileID: 0}
     price: 3000
     basePriceToUpgrade: 3000
     value: 0
@@ -4259,7 +4474,6 @@ MonoBehaviour:
     shopItemType: 2
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: d70ded711404a964fabe85c7d5f22aa2, type: 3}
-    eye: {fileID: 0}
     price: 5000
     basePriceToUpgrade: 5000
     value: 0
@@ -4281,7 +4495,6 @@ MonoBehaviour:
     shopItemType: 2
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: f1a45ff739da919458af66ca9173d450, type: 3}
-    eye: {fileID: 0}
     price: 8000
     basePriceToUpgrade: 8000
     value: 0
@@ -4303,7 +4516,6 @@ MonoBehaviour:
     shopItemType: 2
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: aa40b9a6dffb02848b9674e1afb0065a, type: 3}
-    eye: {fileID: 0}
     price: 13000
     basePriceToUpgrade: 13000
     value: 0
@@ -4323,7 +4535,6 @@ MonoBehaviour:
     shopItemType: 2
     currencyType: 1
     itemIcon: {fileID: 21300000, guid: 6b03a84a7dad02d42a0b9e8db76a0c28, type: 3}
-    eye: {fileID: 0}
     price: 99
     basePriceToUpgrade: 21000
     value: 0
@@ -4343,7 +4554,6 @@ MonoBehaviour:
     shopItemType: 2
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: c33b6f2ee474f454c992221e8f9b124f, type: 3}
-    eye: {fileID: 0}
     price: 22000
     basePriceToUpgrade: 22000
     value: 0
@@ -4365,7 +4575,6 @@ MonoBehaviour:
     shopItemType: 2
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 33aec49e798080046a2d4601ed947b74, type: 3}
-    eye: {fileID: 0}
     price: 34000
     basePriceToUpgrade: 34000
     value: 0
@@ -4385,7 +4594,6 @@ MonoBehaviour:
     shopItemType: 2
     currencyType: 1
     itemIcon: {fileID: 21300000, guid: 7e3e139ae45e2ae418b5ed64e50d4ab0, type: 3}
-    eye: {fileID: 0}
     price: 129
     basePriceToUpgrade: 32000
     value: 0
@@ -4405,7 +4613,6 @@ MonoBehaviour:
     shopItemType: 2
     currencyType: 1
     itemIcon: {fileID: 21300000, guid: bcdbdcb77b6699845a10f2d84afb89d4, type: 3}
-    eye: {fileID: 0}
     price: 199
     basePriceToUpgrade: 45000
     value: 0
@@ -4425,7 +4632,6 @@ MonoBehaviour:
     shopItemType: 2
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: a22aef445611ee540bd21df6614263ba, type: 3}
-    eye: {fileID: 0}
     price: 50000
     basePriceToUpgrade: 50000
     value: 0
@@ -4445,7 +4651,6 @@ MonoBehaviour:
     shopItemType: 2
     currencyType: 1
     itemIcon: {fileID: 21300000, guid: 2c4ddc47214459a428e7ccbe4b6a9b7d, type: 3}
-    eye: {fileID: 0}
     price: 399
     basePriceToUpgrade: 70000
     value: 0
@@ -4466,7 +4671,6 @@ MonoBehaviour:
     shopItemType: 3
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 2904653046cb9294caa94224fef46926, type: 3}
-    eye: {fileID: 0}
     price: 0
     basePriceToUpgrade: 0
     value: 0
@@ -4485,7 +4689,6 @@ MonoBehaviour:
     shopItemType: 3
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: e51509fabc1a59d4e804df2773107801, type: 3}
-    eye: {fileID: 0}
     price: 40000
     basePriceToUpgrade: 40000
     value: 0
@@ -4504,7 +4707,6 @@ MonoBehaviour:
     shopItemType: 3
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 040b4d286224efc43ae62cd1709990dc, type: 3}
-    eye: {fileID: 0}
     price: 25000
     basePriceToUpgrade: 25000
     value: 0
@@ -4525,7 +4727,6 @@ MonoBehaviour:
     shopItemType: 3
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: e62726a225a1d22458bc8d3149509935, type: 3}
-    eye: {fileID: 0}
     price: 45000
     basePriceToUpgrade: 45000
     value: 0
@@ -4546,7 +4747,6 @@ MonoBehaviour:
     shopItemType: 3
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 9ea65c614ced12e4894eb0ae47e0369b, type: 3}
-    eye: {fileID: 0}
     price: 15000
     basePriceToUpgrade: 15000
     value: 0
@@ -4566,7 +4766,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 189b500242bc2ab479c05a7f9dd7b15e, type: 3}
-    eye: {fileID: 21300000, guid: b28f1f0117bd7b04caa83b2d6b0d0a8c, type: 3}
     price: 3000
     basePriceToUpgrade: 3000
     value: 0
@@ -4585,7 +4784,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: c67969f43829ef84ca6ae8ce26497f3a, type: 3}
-    eye: {fileID: 21300000, guid: f17f799d2a92ea946ac42c1f23b191b5, type: 3}
     price: 5200
     basePriceToUpgrade: 5200
     value: 0
@@ -4604,7 +4802,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 997a2a3b36ffc6f489d0a064d442c6cc, type: 3}
-    eye: {fileID: 21300000, guid: 3c918d9f9e79bd5448e8bd88c7d29e7b, type: 3}
     price: 8100
     basePriceToUpgrade: 8100
     value: 0
@@ -4623,7 +4820,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 098f144b0723f614e88718c680bb7a92, type: 3}
-    eye: {fileID: 21300000, guid: 263e38f8acc56984c9de38dd19b784ea, type: 3}
     price: 13500
     basePriceToUpgrade: 13500
     value: 0
@@ -4642,7 +4838,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 1
     itemIcon: {fileID: 21300000, guid: 70b6d97c1225e274fae3532d9715f084, type: 3}
-    eye: {fileID: 21300000, guid: ba40526bc6232a6448c926260b0a4d87, type: 3}
     price: 299
     basePriceToUpgrade: 14000
     value: 0
@@ -4661,7 +4856,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 97e3226490b1fcc4098534194ddab1d6, type: 3}
-    eye: {fileID: 21300000, guid: 6ab9fb07343a85b4386a88dc174726aa, type: 3}
     price: 20000
     basePriceToUpgrade: 20000
     value: 0
@@ -4682,7 +4876,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 0c771dbae166dbb41af3124e9e865c4c, type: 3}
-    eye: {fileID: 21300000, guid: cf69a4bc6e4ee0a489c517efd8cdaff8, type: 3}
     price: 35000
     basePriceToUpgrade: 35000
     value: 0
@@ -4701,7 +4894,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 1
     itemIcon: {fileID: 21300000, guid: 8b30b3ba910221d45b1f19cc00e92004, type: 3}
-    eye: {fileID: 21300000, guid: 263e38f8acc56984c9de38dd19b784ea, type: 3}
     price: 199
     basePriceToUpgrade: 30000
     value: 0
@@ -4720,7 +4912,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 45bd172f105d47f4da97e446731d378b, type: 3}
-    eye: {fileID: 21300000, guid: f17f799d2a92ea946ac42c1f23b191b5, type: 3}
     price: 34000
     basePriceToUpgrade: 34000
     value: 0
@@ -4739,7 +4930,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: ebe636805f523cb43bc3984e79371d94, type: 3}
-    eye: {fileID: 21300000, guid: b28f1f0117bd7b04caa83b2d6b0d0a8c, type: 3}
     price: 50000
     basePriceToUpgrade: 50000
     value: 0
@@ -4758,7 +4948,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 1
     itemIcon: {fileID: 21300000, guid: 4350f12b7ce610e4186ef52b92a76ca8, type: 3}
-    eye: {fileID: 21300000, guid: cf69a4bc6e4ee0a489c517efd8cdaff8, type: 3}
     price: 399
     basePriceToUpgrade: 48000
     value: 0
@@ -4777,7 +4966,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 859fb08c46df45348b52b9324ae2472d, type: 3}
-    eye: {fileID: 21300000, guid: ba40526bc6232a6448c926260b0a4d87, type: 3}
     price: 80000
     basePriceToUpgrade: 80000
     value: 0
@@ -4796,7 +4984,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 1
     itemIcon: {fileID: 21300000, guid: 24d843ecaaeea5a4f9679bd13a644380, type: 3}
-    eye: {fileID: 21300000, guid: 3c918d9f9e79bd5448e8bd88c7d29e7b, type: 3}
     price: 499
     basePriceToUpgrade: 75000
     value: 0
@@ -4815,7 +5002,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 4539e60bf7096ca4bba929818fe3210b, type: 3}
-    eye: {fileID: 21300000, guid: 6ab9fb07343a85b4386a88dc174726aa, type: 3}
     price: 80000
     basePriceToUpgrade: 80000
     value: 0
@@ -4834,7 +5020,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 375d65602e7ab2b44ab7e429277bb648, type: 3}
-    eye: {fileID: 21300000, guid: b28f1f0117bd7b04caa83b2d6b0d0a8c, type: 3}
     price: 85000
     basePriceToUpgrade: 85000
     value: 0
@@ -4853,7 +5038,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 1
     itemIcon: {fileID: 21300000, guid: c581535d4b5792d4eaf740477a8c2af7, type: 3}
-    eye: {fileID: 21300000, guid: 263e38f8acc56984c9de38dd19b784ea, type: 3}
     price: 599
     basePriceToUpgrade: 82000
     value: 0
@@ -4872,7 +5056,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 7aeccee3c71b59c44bad1ada9bfaed21, type: 3}
-    eye: {fileID: 21300000, guid: 3c918d9f9e79bd5448e8bd88c7d29e7b, type: 3}
     price: 90000
     basePriceToUpgrade: 90000
     value: 0
@@ -4891,7 +5074,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: d77b754735cd59748b4e8aefe0b93870, type: 3}
-    eye: {fileID: 21300000, guid: f17f799d2a92ea946ac42c1f23b191b5, type: 3}
     price: 0
     basePriceToUpgrade: 75000
     value: 0
@@ -4910,7 +5092,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 1bd0733a67e195a4288783e1fb65bc20, type: 3}
-    eye: {fileID: 21300000, guid: ba40526bc6232a6448c926260b0a4d87, type: 3}
     price: 70000
     basePriceToUpgrade: 70000
     value: 0
@@ -4929,7 +5110,6 @@ MonoBehaviour:
     shopItemType: 4
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 1e32df348a400a840a34fef759c54a36, type: 3}
-    eye: {fileID: 21300000, guid: b28f1f0117bd7b04caa83b2d6b0d0a8c, type: 3}
     price: 0
     basePriceToUpgrade: 80000
     value: 0
@@ -4949,7 +5129,6 @@ MonoBehaviour:
     shopItemType: 0
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 67ff62827abb82a4aa4b1cfadc9442e0, type: 3}
-    eye: {fileID: 0}
     price: 0.99
     basePriceToUpgrade: 0
     value: 100
@@ -4968,7 +5147,6 @@ MonoBehaviour:
     shopItemType: 0
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 6744b96a131f65945b55f2b3dd90e1ca, type: 3}
-    eye: {fileID: 0}
     price: 1.99
     basePriceToUpgrade: 0
     value: 210
@@ -4987,7 +5165,6 @@ MonoBehaviour:
     shopItemType: 0
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 2679c6aeba49f8943a1bae1916f38e29, type: 3}
-    eye: {fileID: 0}
     price: 4.99
     basePriceToUpgrade: 0
     value: 550
@@ -5006,7 +5183,6 @@ MonoBehaviour:
     shopItemType: 0
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 549ae4a7b109aef439c0571a27210a46, type: 3}
-    eye: {fileID: 0}
     price: 9.99
     basePriceToUpgrade: 0
     value: 1150
@@ -5025,7 +5201,6 @@ MonoBehaviour:
     shopItemType: 0
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: f7551b2d283157d43ba18bd1c565b598, type: 3}
-    eye: {fileID: 0}
     price: 19.99
     basePriceToUpgrade: 0
     value: 2400
@@ -5045,7 +5220,6 @@ MonoBehaviour:
     shopItemType: 0
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: b1c71259961556a4882e005ad86066dd, type: 3}
-    eye: {fileID: 0}
     price: 0.99
     basePriceToUpgrade: 0
     value: 5000
@@ -5064,7 +5238,6 @@ MonoBehaviour:
     shopItemType: 0
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 32de425856bcbda4096e206efc55e427, type: 3}
-    eye: {fileID: 0}
     price: 1.99
     basePriceToUpgrade: 0
     value: 11000
@@ -5083,7 +5256,6 @@ MonoBehaviour:
     shopItemType: 0
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: c6da27d3d52d23944b3439800726d787, type: 3}
-    eye: {fileID: 0}
     price: 4.99
     basePriceToUpgrade: 0
     value: 30000
@@ -5102,7 +5274,6 @@ MonoBehaviour:
     shopItemType: 0
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 6eefcb9b9a4cd674786c4b2bc22de457, type: 3}
-    eye: {fileID: 0}
     price: 9.99
     basePriceToUpgrade: 0
     value: 65000
@@ -5121,7 +5292,6 @@ MonoBehaviour:
     shopItemType: 0
     currencyType: 0
     itemIcon: {fileID: 21300000, guid: 43e85b5c92e310f429e287fede534e42, type: 3}
-    eye: {fileID: 0}
     price: 19.99
     basePriceToUpgrade: 0
     value: 140000
@@ -5136,6 +5306,7 @@ MonoBehaviour:
     connectedSkin: {fileID: 0}
     signatureCard: 0
   eyes:
+  - {fileID: 21300000, guid: f1797b26e3477d841babfdfeb6b61660, type: 3}
   - {fileID: 21300000, guid: b28f1f0117bd7b04caa83b2d6b0d0a8c, type: 3}
   - {fileID: 21300000, guid: f17f799d2a92ea946ac42c1f23b191b5, type: 3}
   - {fileID: 21300000, guid: 3c918d9f9e79bd5448e8bd88c7d29e7b, type: 3}
@@ -5143,6 +5314,27 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ba40526bc6232a6448c926260b0a4d87, type: 3}
   - {fileID: 21300000, guid: cf69a4bc6e4ee0a489c517efd8cdaff8, type: 3}
   - {fileID: 21300000, guid: 6ab9fb07343a85b4386a88dc174726aa, type: 3}
+  vukhi:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   talentItemList:
   - itemName: HP
     itemId: 0
