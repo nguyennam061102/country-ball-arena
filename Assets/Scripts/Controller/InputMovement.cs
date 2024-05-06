@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class InputMovement : MonoBehaviour
 {
@@ -9,7 +9,9 @@ public class InputMovement : MonoBehaviour
     private PlayerMovement Movement => Data.movement;
     private PlayerJump Jump => Data.jump;
     private Gun Gun => Data.Gun;
-
+    public List<Image> images;
+    public List<GameObject> gameObjects;
+    public Button hideUI;
     bool isLeftDown, isRightDown, isAttackDown;
 
     bool computerControl;
@@ -100,7 +102,34 @@ public class InputMovement : MonoBehaviour
             Gun.Attack(Gun.currentCharge);
         }
     }
-
+    bool isHide;
+    public void HideUI()
+    {
+        if (!isHide)
+        {
+            isHide = true;
+            foreach(Image image in images)
+            {
+                image.color = Color.clear;
+            }
+            foreach(GameObject gameObject in gameObjects)
+            {
+                gameObject.SetActive(false);
+            }
+        }
+        else
+        {
+            isHide = false;
+            foreach (Image image in images)
+            {
+                image.color = Color.white;
+            }
+            foreach (GameObject gameObject in gameObjects)
+            {
+                gameObject.SetActive(true);
+            }
+        }
+    }
     public void ResetAllButtonsState()
     {
         StopMove();
