@@ -268,7 +268,10 @@ public class GameController : SingletonMonoBehavior<GameController>
     public void OnBackButton()
     {
         Sound.Play(Sound.SoundData.ButtonClick);
-        UiController.Instance.GetPanel(PanelName.PanelPause);
+        if (!gamePaused)
+        {
+            UiController.Instance.GetPanel(PanelName.PanelPause);
+        }
     }
 
     public void ShowEndRoundText(string content)

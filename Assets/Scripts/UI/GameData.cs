@@ -249,6 +249,7 @@ public static class GameData
 
     public static int CurrentOffHandAi1Id = 0;  
     public static int CurrentOffHandAi2Id = 0;
+    public static int CurrentOffHandAi3Id = 0;
     #endregion
 
     public static bool IsFirstTimePlay

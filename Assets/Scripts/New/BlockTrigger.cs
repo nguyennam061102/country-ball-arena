@@ -95,6 +95,10 @@ public class BlockTrigger : MonoBehaviour
         {
             ActiveBlock(GameData.CurrentOffHandAi2Id);
         }
+        else if (data.player.playerID == 3)
+        {
+            ActiveBlock(GameData.CurrentOffHandAi3Id);
+        }
     }
 
     void ActiveBlock(int id)

@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using Sirenix.OdinInspector;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,7 +12,7 @@ public class GameLoaderStart : MonoBehaviour
     //[SerializeField] UILabel lbLoad, lbTip;
     //[SerializeField] GameObject LoadPanel;
     [SerializeField] string[] tipPool;
-
+    
     private void Start()
     {
         if (instance == null)

@@ -42,6 +42,10 @@ public class PlayerAssigner : MonoBehaviour
                     {
                         GameData.CurrentOffHandAi2Id = Random.Range(0, 5);
                     }
+                    else if (playerIDToSet == 3)
+                    {
+                        GameData.CurrentOffHandAi3Id = Random.Range(0, 5);
+                    }
                 }
                 else if (GameFollowData.Instance.playingGameMode.Equals(GameMode.DeathMatch))
                 {

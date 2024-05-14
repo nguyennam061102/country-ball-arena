@@ -28,7 +28,11 @@ public class BlockRechargeUI : MonoBehaviour
             else if (data.player.playerID == 2)
             {
                 SetOffHandImage(GameData.CurrentOffHandAi2Id);
-            }       
+            }
+            else if (data.player.playerID == 3)
+            {
+                SetOffHandImage(GameData.CurrentOffHandAi3Id);
+            }
         }
     }
 

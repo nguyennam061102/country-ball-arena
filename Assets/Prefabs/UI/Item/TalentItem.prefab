@@ -66,14 +66,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 210
-  mHeight: 260
+  mWidth: 260
+  mHeight: 274
   mDepth: 1
   mMat: {fileID: 0}
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 0.8076923
+  aspectRatio: 0.9489051
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -87,7 +87,7 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: 4e6e8be7e5ef5fe4cb2ef168622f34f0, type: 3}
+  mSprite: {fileID: 21300000, guid: be26162b845b37c43b41ae27df569bb3, type: 3}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
@@ -110,6 +110,7 @@ MonoBehaviour:
     itemId: 0
     itemIcon: {fileID: 0}
     baseValue: 0
+    itemFx: {fileID: 0}
   itemId: 0
   itemIcon: {fileID: 2817694713245935134}
   itemName: {fileID: 2817694713312167886}

@@ -44,8 +44,8 @@ public class InventoryItem : MonoBehaviour
                 eye.sprite2D = itemInfo.connectedSkin.eye;
                 eye.gameObject.SetActive(true);
                 eye.MakePixelPerfect();
-                eye.width = Mathf.RoundToInt( eye.width * 0.5f);
-                eye.height = Mathf.RoundToInt(eye.height * 0.5f);
+                eye.width = Mathf.RoundToInt( eye.width * 0.7f);
+                eye.height = Mathf.RoundToInt(eye.height * 0.7f);
                 selectItem.SetActive(itemId == GameData.CurrentSkinId);
                 break;
             default:

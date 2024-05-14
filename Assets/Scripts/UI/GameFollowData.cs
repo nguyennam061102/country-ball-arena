@@ -45,16 +45,11 @@ public class GameFollowData : MonoBehaviour
         //    EditorUtility.SetDirty(offHandList[i].itemIcon);
         //}
 
-        //for (int i = 0; i < skinList.Length; i++)
-        //{
-        //    skinList[i].itemId = i;
-        //    skinList[i].useAnim = true;
-        //    skinList[i].canUpgrade = true;
-        //    skinList[i].shopItemType = ShopItemType.Skin;
-        //    skinList[i].connectedSkin = chs[i];
-        //    skinList[i].itemName = chs[i].skinName;
-        //    //EditorUtility.SetDirty(skinList[i].itemIcon);
-        //}
+        for (int i = 0; i < skinList.Length; i++)
+        {
+            skinList[i].itemIcon = skinList[i].connectedSkin.skinSprite;
+            //EditorUtility.SetDirty(skinList[i].itemIcon);
+        }
 
         //for (int i = 0; i < diamondList.Length; i++)
         //{
@@ -178,6 +173,8 @@ public class ShopItemInfo
     [BoxGroup("Item/Skin")] public float moveSpeed => connectedSkin.speed;
     [BoxGroup("Item/Skin")] public int signatureCard;
 
+
+   
     public bool IsUnlocked
     {
         get
@@ -234,6 +231,7 @@ public class TalentItemInfo
     public int itemId;
     public Sprite itemIcon;
     public float baseValue;
+    public ParticleSystem itemFx;
 
     public int Level
     {

@@ -535,7 +535,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488141461929784606}
   m_LocalRotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
-  m_LocalPosition: {x: -0.125, y: 1.33, z: -0.009}
+  m_LocalPosition: {x: -0.19, y: 1.898, z: -0.009}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1548,6 +1548,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 645034407660242560}
     m_Modifications:
+    - target: {fileID: 7057222940021996749, guid: 24cbe4926940d1948858e2f8239f59ad,
+        type: 3}
+      propertyPath: scalingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7057222941094428390, guid: 24cbe4926940d1948858e2f8239f59ad,
         type: 3}
       propertyPath: m_RootOrder
@@ -1555,8 +1560,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7057222941094428390, guid: 24cbe4926940d1948858e2f8239f59ad,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057222941094428390, guid: 24cbe4926940d1948858e2f8239f59ad,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057222941094428390, guid: 24cbe4926940d1948858e2f8239f59ad,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057222941094428390, guid: 24cbe4926940d1948858e2f8239f59ad,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.074
+      value: 0.987
       objectReference: {fileID: 0}
     - target: {fileID: 7057222941094428390, guid: 24cbe4926940d1948858e2f8239f59ad,
         type: 3}
@@ -1607,6 +1627,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "Impact \u0111\u1EA7u s\xFAng"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057222941931252007, guid: 24cbe4926940d1948858e2f8239f59ad,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24cbe4926940d1948858e2f8239f59ad, type: 3}

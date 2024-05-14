@@ -784,7 +784,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8609310044636755983}
   m_LocalRotation: {x: 0.4592291, y: -0.53768826, z: -0.53768826, w: -0.4592291}
-  m_LocalPosition: {x: -0.15, y: 1.15, z: 0.009}
+  m_LocalPosition: {x: -0.409, y: 2.12, z: 0.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1046,7 +1046,7 @@ GameObject:
   - component: {fileID: 3587813265726764526}
   - component: {fileID: 4275278575108075963}
   m_Layer: 0
-  m_Name: GrenadeLauncher
+  m_Name: Thomson
   m_TagString: 
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1576,8 +1576,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7366775584679005310, guid: 0e0597f3586e8c949abfc8dd4b67a434,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366775584679005310, guid: 0e0597f3586e8c949abfc8dd4b67a434,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366775584679005310, guid: 0e0597f3586e8c949abfc8dd4b67a434,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366775584679005310, guid: 0e0597f3586e8c949abfc8dd4b67a434,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.371
+      value: 1.174
       objectReference: {fileID: 0}
     - target: {fileID: 7366775584679005310, guid: 0e0597f3586e8c949abfc8dd4b67a434,
         type: 3}
@@ -1623,6 +1638,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366775586087136004, guid: 0e0597f3586e8c949abfc8dd4b67a434,
+        type: 3}
+      propertyPath: scalingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366775586220789083, guid: 0e0597f3586e8c949abfc8dd4b67a434,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366775586220789083, guid: 0e0597f3586e8c949abfc8dd4b67a434,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0597f3586e8c949abfc8dd4b67a434, type: 3}

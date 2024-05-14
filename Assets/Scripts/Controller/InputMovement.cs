@@ -11,6 +11,7 @@ public class InputMovement : MonoBehaviour
     private Gun Gun => Data.Gun;
     public List<Image> images;
     public List<GameObject> gameObjects;
+    public List<GameObject> objActive;
     public Button hideUI;
     bool isLeftDown, isRightDown, isAttackDown;
 
@@ -74,6 +75,10 @@ public class InputMovement : MonoBehaviour
             {
                 UseOffHand();
             }
+            if (Input.GetKeyDown(KeyCode.K))
+            {
+                Attack();
+            }
             if (Input.GetKeyUp(KeyCode.K))
             {
                 EndAttack();
@@ -114,6 +119,13 @@ public class InputMovement : MonoBehaviour
             }
             foreach(GameObject gameObject in gameObjects)
             {
+                if (gameObject.activeSelf)
+                {
+                    objActive.Add(gameObject);
+                }
+            }
+            foreach (GameObject gameObject in objActive)
+            {
                 gameObject.SetActive(false);
             }
         }
@@ -124,7 +136,7 @@ public class InputMovement : MonoBehaviour
             {
                 image.color = Color.white;
             }
-            foreach (GameObject gameObject in gameObjects)
+            foreach (GameObject gameObject in objActive)
             {
                 gameObject.SetActive(true);
             }

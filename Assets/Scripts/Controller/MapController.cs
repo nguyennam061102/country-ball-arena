@@ -111,6 +111,10 @@ public class MapController : SingletonMonoBehavior<MapController>
                     {
                         GameData.CurrentOffHandAi2Id = Random.Range(0, 5);
                     }
+                    else if (player.playerID == 3)
+                    {
+                        GameData.CurrentOffHandAi3Id = Random.Range(0, 5);
+                    }
                     //add card every wave
                     int rndCard = Random.Range(0, gameController.cards.Length);
                     gameController.cards[rndCard].GetComponent<ApplyCardStats>().PickCard(player.playerID, false, PickerType.Player, false);

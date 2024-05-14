@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: PlayerSkin15
   m_EditorClassIdentifier: 
   skinId: 15
-  skinSprite: {fileID: 21300000, guid: c581535d4b5792d4eaf740477a8c2af7, type: 3}
+  skinSprite: {fileID: -1770943897, guid: 99041c830aab1ec499ef5ad7a7981dba, type: 3}
   eye: {fileID: 21300000, guid: f1797b26e3477d841babfdfeb6b61660, type: 3}
   defaultSkin: 0
   useColor: 1
   skinColor: {r: 1, g: 1, b: 1, a: 255}
   faceAnim: {fileID: 0}
   skinName: Indonesia
-  health: 0
-  speed: 0
+  health: 220
+  speed: 110

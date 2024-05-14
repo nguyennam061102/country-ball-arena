@@ -27,7 +27,7 @@ public class CharacterSkinHandler : MonoBehaviour
             eye.sprite = GameFollowData.Instance.eyes[index];
         }else
         {
-            eye.sprite = GameFollowData.Instance.eyes[GameData.PlayerEye];
+            eye.sprite = skin.eye;
         }
         if (skin.defaultSkin)
         {

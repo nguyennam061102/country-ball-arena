@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: PlayerSkin0
   m_EditorClassIdentifier: 
   skinId: 0
-  skinSprite: {fileID: 21300000, guid: 189b500242bc2ab479c05a7f9dd7b15e, type: 3}
-  eye: {fileID: 21300000, guid: f1797b26e3477d841babfdfeb6b61660, type: 3}
+  skinSprite: {fileID: 625655146, guid: ab326e589a2dbf246ac0bc70f4ccbb28, type: 3}
+  eye: {fileID: 21300000, guid: 6ab9fb07343a85b4386a88dc174726aa, type: 3}
   defaultSkin: 0
   useColor: 1
   skinColor: {r: 1, g: 1, b: 1, a: 255}

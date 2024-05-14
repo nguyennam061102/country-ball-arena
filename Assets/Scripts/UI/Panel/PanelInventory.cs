@@ -93,6 +93,8 @@ public class PanelInventory : MonoBehaviour
                 this.eye.gameObject.SetActive(true);
                 this.eye.sprite2D = itemInfo.connectedSkin.eye;
                 this.eye.MakePixelPerfect();
+                this.eye.width = Mathf.RoundToInt(this.eye.width * 1.5f);
+                this.eye.height = Mathf.RoundToInt(this.eye.height * 1.5f);
                 this.curentEye.sprite2D = itemInfo.connectedSkin.eye;
                 this.curentEye.MakePixelPerfect();
                 count = GameFollowData.Instance.eyes.IndexOf(itemInfo.connectedSkin.eye);
@@ -140,6 +142,8 @@ public class PanelInventory : MonoBehaviour
             GameFollowData.Instance.skinList[itemId].connectedSkin.eye = GameFollowData.Instance.eyes[count];
             this.eye.sprite2D = GameFollowData.Instance.eyes[count];
             this.eye.MakePixelPerfect();
+            this.eye.width = Mathf.RoundToInt(this.eye.width * 1.5f);
+            this.eye.height = Mathf.RoundToInt(this.eye.height * 1.5f);
             this.curentEye.sprite2D = GameFollowData.Instance.eyes[count];
             this.curentEye.MakePixelPerfect();
             UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.sprite2D = GameFollowData.Instance.eyes[count];
@@ -154,6 +158,8 @@ public class PanelInventory : MonoBehaviour
             GameFollowData.Instance.skinList[itemId].connectedSkin.eye = GameFollowData.Instance.eyes[count];
             this.eye.sprite2D = GameFollowData.Instance.eyes[count];
             this.eye.MakePixelPerfect();
+            this.eye.width = Mathf.RoundToInt(this.eye.width * 1.5f);
+            this.eye.height = Mathf.RoundToInt(this.eye.height * 1.5f);
             this.curentEye.sprite2D = GameFollowData.Instance.eyes[count];
             this.curentEye.MakePixelPerfect();
             UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.sprite2D = GameFollowData.Instance.eyes[count];
@@ -171,6 +177,8 @@ public class PanelInventory : MonoBehaviour
             GameFollowData.Instance.skinList[itemId].connectedSkin.eye = GameFollowData.Instance.eyes[count];
             this.eye.sprite2D = GameFollowData.Instance.eyes[count];
             this.eye.MakePixelPerfect();
+            this.eye.width = Mathf.RoundToInt(this.eye.width * 1.5f);
+            this.eye.height = Mathf.RoundToInt(this.eye.height * 1.5f);
             this.curentEye.sprite2D = GameFollowData.Instance.eyes[count];
             this.curentEye.MakePixelPerfect();
             UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.sprite2D = GameFollowData.Instance.eyes[count];
@@ -185,6 +193,8 @@ public class PanelInventory : MonoBehaviour
             GameFollowData.Instance.skinList[itemId].connectedSkin.eye = GameFollowData.Instance.eyes[count];
             this.eye.sprite2D = GameFollowData.Instance.eyes[count];
             this.eye.MakePixelPerfect();
+            this.eye.width = Mathf.RoundToInt(this.eye.width * 1.5f);
+            this.eye.height = Mathf.RoundToInt(this.eye.height * 1.5f);
             this.curentEye.sprite2D = GameFollowData.Instance.eyes[count];
             this.curentEye.MakePixelPerfect();
             UiController.Instance.currentPanel.GetComponent<PanelCharacter>().ItemList[itemId].Eye.sprite2D = GameFollowData.Instance.eyes[count];
